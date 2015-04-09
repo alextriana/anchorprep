@@ -18,6 +18,17 @@ news_list = [
 	["Common App: Dos and Donts", "Students will speak in a panel setting about the most over and underated common app strategies. Free pizza!", "October 12th, 2014"]
 ]
 
+user_list = [
+	["Alex","Triana","alex.triana2@gmail.com","student"]
+]
+admin_list = [
+	# ["Kathryn", "Manclark", "kmanclark@gmail.com"],
+	# ["Katie", "Vinicombe", "jkvinnicombe@verizon.net"]
+	["Alex","Triana", "alex.triana2@gmail.com"]
+]
+
+User.delete_all
+
 College.delete_all
 Update.delete_all
 
@@ -27,4 +38,12 @@ end
 
 news_list.each do |name, summary, date|
   Update.create!( title: name, summary: summary, date: date )
+end
+
+user_list.each do |first, last, email, relationship|
+	User.create!( first_name: first, last_name: last, email:email, relationship: relationship )
+end
+
+admin_list.each do |first, last, email|
+	Admin.create!(first_name: first, last_name: last, email: email)
 end

@@ -1,2 +1,30 @@
-<h1>StaticPages#contact</h1>
-<p>Contact Us</p>
+
+<h2>Contact Us</h2>
+
+<%= form_tag submit_contact_form_path do %>
+
+  <%= label_tag(:first_name, "First Name") %>
+  <br>
+  <%= text_field_tag :first_name, "", :placeholder => "John", :size =>'30x10'  %>
+  <br>
+  <%= label_tag(:last_name, "Last Name") %>
+  <br>
+  <%= text_field_tag :last_name, "", :placeholder => "Smith", :size =>'30x10'  %>
+  <br>
+  <%= label_tag(:email, "Email") %>
+  <br>
+  <%= text_field_tag :email, "", :placeholder => "jonsmith@example.com", :size =>'30x10'  %>
+  <br>
+  <%= radio_button_tag(:type, "Parent") %>
+  <%= label_tag(:type_parent, "I am a parent") %>
+  <%= radio_button_tag(:type, "Student") %>
+  <%= label_tag(:type_student, "I am a student") %>
+  <br>
+  <%= label_tag(:body, "Email Body") %>
+  <br>
+  <%= text_area_tag :body, "", :placeholder => "Text", :id => 'email-body', :size => '50x15' %>
+  <br>	
+  <%= submit_tag "Send Email" %>
+<% end %>
+
+
