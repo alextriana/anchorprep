@@ -19,11 +19,11 @@ news_list = [
 ]
 
 user_list = [
-	["Alex","Triana","alex.triana2@gmail.com","student"]
+	["Alex","Triana","alex.triana2@gmail.com","Student"]
 ]
 admin_list = [
-	# ["Kathryn", "Manclark", "kmanclark@gmail.com"],
-	# ["Katie", "Vinicombe", "jkvinnicombe@verizon.net"]
+	["Kathryn", "Manclark", "kmanclark@gmail.com"],
+	["Katie", "Vinicombe", "jkvinnicombe@verizon.net"]
 	["Alex","Triana", "alex.triana2@gmail.com"]
 ]
 

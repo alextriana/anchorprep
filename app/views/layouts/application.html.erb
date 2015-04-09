@@ -7,6 +7,12 @@
   <%= csrf_meta_tags %>
 </head>
 <%= render 'layouts/navbar' %>
+<% flash.each do |name, msg| %>
+  <% if msg.is_a?(String) %>
+    <%= content_tag :div, msg, :style => "color:green; font-weight:bold" %>
+  <% end %>
+<% end %>
+
 <body>
 
 <%= yield %>

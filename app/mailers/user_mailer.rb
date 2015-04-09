@@ -25,6 +25,11 @@ class UserMailer < ApplicationMailer
 	def contact_alert(admin_user, user, message)
 		template_name = "contact-alert"
       template_content = []
+      if user.relationship == nil
+        type = "None"
+      else
+        type = user.relationship
+      end
       message = {
         to: [{email: admin_user.email}],
         merge_vars: [
@@ -32,7 +37,7 @@ class UserMailer < ApplicationMailer
            vars: [
               { name: "first_name", content: admin_user.first_name },
               { name: "request_name", content: user.first_name },
-              { name: "request_type", content: user.relationship },
+              { name: "request_type", content: type},
               { name: "request_message", content: message }
           	]
           }
