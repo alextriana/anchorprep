@@ -23,7 +23,7 @@ user_list = [
 ]
 admin_list = [
 	["Kathryn", "Manclark", "kmanclark@gmail.com"],
-	["Katie", "Vinicombe", "jkvinnicombe@verizon.net"]
+	["Katie", "Vinicombe", "jkvinnicombe@verizon.net"],
 	["Alex","Triana", "alex.triana2@gmail.com"]
 ]
 
