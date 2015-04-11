@@ -1,23 +1,30 @@
 Rails.application.routes.draw do
+  devise_for :admins
   resources :updates
 
   resources :colleges
   get '/home', to: 'static_pages#home', as: 'home'
-  get '/about', to: 'static_pages#about', as: "about"
-  get '/resources', to: 'static_pages#resources', as: "resources"
-  get '/contact', to: 'static_pages#contact', as: "contact"
-  get '/college-spotlight', to: 'colleges#index', as: "college-spotlight"
-  get '/news', to: 'updates#index', as: "news"
+  get '/about', to: 'static_pages#about', as: 'about'
+  get '/resources', to: 'static_pages#resources', as: 'resources'
+  get '/contact', to: 'static_pages#contact', as: 'contact'
+  get '/college-spotlight', to: 'colleges#index', as: 'college-spotlight'
+  get '/news', to: 'updates#index', as: 'news'
+
+  get '/admin_dashboard',  to: 'admins#index', as: 'admin_dashboard'
 
   root 'static_pages#home'
 
-  post '/submit-contact-form', to: 'static_pages#submit_contact_form', as: "submit_contact_form"
+  post '/submit-contact-form', to: 'static_pages#submit_contact_form', as: 'submit_contact_form'
+
+  devise_scope :admin do
+    get "/admin", to: "devise/sessions#new"
+  end
 
 
   # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
+  # See how all your routes lay out with 'rake routes'.
 
-  # You can have the root of your site routed with "root"
+  # You can have the root of your site routed with 'root'
   # root 'welcome#index'
 
   # Example of regular route:

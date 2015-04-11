@@ -1,5 +1,6 @@
 class UpdatesController < ApplicationController
   before_action :set_update, only: [:show, :edit, :update, :destroy]
+  before_filter :authenticate_admin!, :except => [:index, :show]
 
   # GET /updates
   # GET /updates.json

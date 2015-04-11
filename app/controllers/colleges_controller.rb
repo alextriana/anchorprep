@@ -1,5 +1,7 @@
 class CollegesController < ApplicationController
   before_action :set_college, only: [:show, :edit, :update, :destroy]
+  before_filter :authenticate_admin!, :except => [:index, :show]
+
 
   # GET /colleges
   # GET /colleges.json
