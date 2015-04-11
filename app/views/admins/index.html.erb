@@ -24,6 +24,8 @@
     <% end %>
   </tbody>
 </table>
+<br>
+<%= link_to 'New Update', new_update_path %>
 
 <h3> All colleges </h3>
 <table>
@@ -47,6 +49,8 @@
     <% end %>
   </tbody>
 </table>
+<br>
+<%= link_to 'New College', new_college_path %>
 
 <h3> All interested users </h3>
 <table>
@@ -70,6 +74,8 @@
     <% end %>
   </tbody>
 </table>
+
+
 
 <% if admin_signed_in? %>
   <li>
