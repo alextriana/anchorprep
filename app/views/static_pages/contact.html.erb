@@ -1,30 +1,35 @@
-
-<h2>Contact Us</h2>
+<div class="content-container">
+  <div class="content-story">
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you.</p>
 
 <%= form_tag submit_contact_form_path do %>
 
   <%= label_tag(:first_name, "First Name") %>
-  <br>
   <%= text_field_tag :first_name, "", :placeholder => "John", :size =>'30x10'  %>
-  <br>
+  
   <%= label_tag(:last_name, "Last Name") %>
-  <br>
+  
   <%= text_field_tag :last_name, "", :placeholder => "Smith", :size =>'30x10'  %>
-  <br>
+  
   <%= label_tag(:email, "Email") %>
-  <br>
+  
   <%= text_field_tag :email, "", :placeholder => "jonsmith@example.com", :size =>'30x10'  %>
-  <br>
+  
   <%= radio_button_tag(:type, "Parent") %>
   <%= label_tag(:type_parent, "I am a parent") %>
   <%= radio_button_tag(:type, "Student") %>
   <%= label_tag(:type_student, "I am a student") %>
-  <br>
+  
   <%= label_tag(:body, "Email Body") %>
-  <br>
+  
   <%= text_area_tag :body, "", :placeholder => "Text", :id => 'email-body', :size => '50x15' %>
-  <br>	
+    
   <%= submit_tag "Send Email" %>
 <% end %>
 
+<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=2345%20College%20Avenue%2C%20Berkeley%2C%20CA%2C%20United%20States&key=AIzaSyD1BPSQMnowZ4T8wnUgDm8EmU5mRyFR1l4"></iframe>
+  </div>
+
+</div
 

@@ -37,6 +37,8 @@ gem 'newrelic_rpm'
 gem 'figaro'
 gem 'devise'
 
+gem 'font-awesome-sass'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
