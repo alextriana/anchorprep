@@ -1,3 +1,20 @@
 <p id="notice"><%= notice %></p>
-
-<%= render 'colleges/list' %>
+<div class="content-container">
+	<div class="content-story">
+		<div class="content-text full">
+			<h1>College Spotlight</h1>
+			<p>Each week we post a different featurette on popular schools across the country.</p>
+			<p>If you have suggetions about schools to feature just let us know!</p>
+			<div class="item-list">
+				<ul>
+					<% @colleges.each do |college| %>
+      <li><%= college.name %></li>
+      <% end%>
+					</ul>
+			</div>
+			<div class="item-container">
+				<%= render 'colleges/list' %>
+			</div>
+		</div>
+	</div>
+</div>

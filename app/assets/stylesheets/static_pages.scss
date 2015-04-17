@@ -76,7 +76,7 @@ body {
         }
         .content-story {
             margin: 10px 10%;
-            padding: 50px 0 30px 0;
+            padding: 20px 0 30px 0;
             overflow: auto;
             .content-text {
                 display: inline-block;
@@ -93,17 +93,50 @@ body {
                     margin: 0;
                 }
                 p {
-                    font-size: 18px;
+                    font-size: 16px;
+                    line-height: 20px;
                 }
+                h1 {
+                    margin: 0;
+                }
+                &.full {
+                width: 80%;
             }
-            &.full {
-            	margin: 0;
-            }
-        }
 
-        img {
-        	width: 45%;
-        	vertical-align: top;
+                .item-list {
+                    width: 150px;
+                    background-color: $gray;
+                    display: inline-block;
+                }
+                .item-container {
+                    display: inline-block;
+                    margin-left: 10%;
+                    vertical-align: top;
+
+                    h2 {
+                        margin: 0;
+                    }
+
+                    p {
+                        margin-left: 30px;
+                    }
+                }
+
+            }
+            
+
+            img {
+                vertical-align: top;
+                display: inline-block;
+                border: 2px solid $primaryBlue;
+            }
+            &.right img {
+                margin: 0 0 30px 70px;
+                
+            }
+            &.left img {
+                margin: 0 70px 30px 0;
+            }
         }
     }
     input {

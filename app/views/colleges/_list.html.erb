@@ -1,20 +1,6 @@
-<h3> All colleges </h3>
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Summary</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
     <% @colleges.each do |college| %>
-      <tr>
-        <td><%= college.name %></td>
-        <td><%= college.summary %></td>
+     <h2><%= college.name %></h2>
+        <p><%= college.summary %></p>
         <td><%= link_to 'Read More...', college %></td>
-      </tr>
+      
     <% end %>
-  </tbody>
-</table>
