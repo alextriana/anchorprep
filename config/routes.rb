@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   get '/contact', to: 'static_pages#contact', as: 'contact'
   get '/college-spotlight', to: 'colleges#index', as: 'college-spotlight'
   get '/news', to: 'updates#index', as: 'news'
+  get '/services', to: 'static_pages#services', as: 'services'
+  get '/articles', to: 'static_pages#articles', as: 'articles'
 
   get '/admin_dashboard',  to: 'admins#index', as: 'admin_dashboard'
 

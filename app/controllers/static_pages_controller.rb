@@ -11,6 +11,9 @@ class StaticPagesController < ApplicationController
   def contact
   end
 
+  def services
+  end
+
   def submit_contact_form
     @admins = Admin.all
     if User.exists?(email: params[:email]) == false

@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Advising</title>
+  <title></title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <meta name="google-site-verification" content="RN3uxivNsZzqt3WCrZieDk4IBDM3WRICPU-X5J-BLq4" />
 </head>
-<%= render 'layouts/navbar' %>
+
+	<%= render 'layouts/navbar' %> 
+
 <% flash.each do |name, msg| %>
   <% if msg.is_a?(String) %>
     <%= content_tag :div, msg, :style => "color:green; font-weight:bold" %>
@@ -17,6 +20,13 @@
 <body>
 
 <%= yield %>
+<footer>
+        <div class="row">
+          <div class="col-lg-12">
+          	
+          </div>
+        </div>
 
+      </footer>
 </body>
 </html>

@@ -1,20 +1,22 @@
-<p id="notice"><%= notice %></p>
-<div class="content-container">
-	<div class="content-story">
-		<div class="content-text full">
-			<h1>College Spotlight</h1>
-			<p>Each week we post a different featurette on popular schools across the country.</p>
-			<p>If you have suggetions about schools to feature just let us know!</p>
-			<div class="item-list">
-				<ul>
+<div class="container">
+	<div class="col-lg-2">
+		<div class="panel panel-default">
+                <div class="panel-heading">All Colleges</div>
+                <div class="panel-body">
+                  <ul>
 					<% @colleges.each do |college| %>
-      <li><%= college.name %></li>
+      <li><%= link_to college.name, college_path(college.id) %></li>
       <% end%>
 					</ul>
-			</div>
-			<div class="item-container">
-				<%= render 'colleges/list' %>
-			</div>
-		</div>
+                </div>
+              </div>
+		
 	</div>
-</div>
+	<div class="col-lg-10">
+		<h1>College Spotlight</h1>
+			<p>Each week we post a different featurette on popular schools across the country.</p>
+			<p>If you have suggetions about schools to feature just let us know!</p>
+		<%= render 'colleges/list' %>
+			
+	</div>
+</div>	

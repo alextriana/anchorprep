@@ -1,5 +1,24 @@
-<p id="notice"><%= notice %></p>
+<div class="container">
+	<div class="col-lg-2">
+		<div class="panel panel-default">
+                <div class="panel-heading">News</div>
+                <div class="panel-body">
+                  <ul>
+					<% @updates.each do |update| %>
+      <li><%= link_to update.title, update_path(update.id) %></li>
+      <% end%>
+					</ul>
+                </div>
+              </div>
+		
+	</div>
+	<div class="col-lg-10">
+		<h1>College Spotlight</h1>
+			<p>Each week we post a different featurette on popular schools across the country.</p>
+			<p>If you have suggetions about schools to feature just let us know!</p>
+		<%= render 'updates/list' %>
+			
+	</div>
+</div>	
 
-
-<%= render 'updates/list' %>
 

@@ -1,14 +1,31 @@
-<p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
+<div class="container">
+	<div class="container" style="margin-top: 20px">
+	<div class="col-lg-2">
+		<div class="panel panel-default">
+                <div class="panel-heading">All Colleges</div>
+                <div class="panel-body">
+                  <ul>
+					
+      <li><%= link_to 'Back', admin_dashboard_path %></li>
+					</ul>
+                </div>
+              </div>
+		
+	</div>
+	<div class="col-lg-10">
+		
+  <h2>
   <%= @college.name %>
-</p>
+</h2>
+
 
 <p>
-  <strong>Summary:</strong>
   <%= @college.summary %>
 </p>
 
-<%= link_to 'Edit', edit_college_path(@college) %> |
-<%= link_to 'Back', admin_dashboard_path %>
+
+	</div>
+</div>	
+
+</div>
