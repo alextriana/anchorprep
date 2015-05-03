@@ -10,8 +10,19 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_self
- *= require bootstrap.min
- *= require cover
- *= require static_pages
+
+
  */
+
+/* line 1, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+nav > li > a.nav-tab {
+  height: 60px;
+  padding-top: 20px;
+}
+
+/* line 6, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+a.nav-logo {
+  padding: 0;
+  padding-left: 5px;
+  padding-top: 5px;
+}
