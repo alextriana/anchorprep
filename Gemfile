@@ -37,6 +37,7 @@ gem 'newrelic_rpm'
 gem 'figaro'
 gem 'devise'
 gem 'font-awesome-sass'
+gem "paperclip", "~> 4.2"
 
 
 # Use Capistrano for deployment
