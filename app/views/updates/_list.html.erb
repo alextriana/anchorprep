@@ -1,4 +1,4 @@
-    <% @updates.each do |update| %>
+    <% @updates.limit(5).each do |update| %>
      <h2><%= update.title %></h2>
         <p><strong><%=update.date%></strong></p>     
         <p><%= update.summary %></p>

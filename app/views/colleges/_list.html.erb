@@ -1,6 +1,7 @@
-    <% @colleges.each do |college| %>
+    <% @colleges.limit(5).each do |college| %>
+    <div style="margin-bottom: 40px;">
      <h2><%= college.name %></h2>
         <p><%= college.summary %></p>
         <td><%= link_to 'Read More...', college %></td>
-      
+      </div>
     <% end %>

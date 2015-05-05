@@ -56,6 +56,10 @@
 	margin: 50px 0;
 }
 
+.subheading.inverse {
+	color: #1995dc;
+}
+
 .card-container {
 	margin-top: 20px;
 	margin-bottom: 50px;
@@ -81,9 +85,13 @@
 }
 
 .panel ul {
-	-webkit-padding-start: 20px;
+	-webkit-padding-start: 15px;
 }
 
 .container a:hover {
 	color: inherit;
+}
+
+.book-title {
+	font-style: italic;
 }
