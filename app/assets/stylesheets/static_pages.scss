@@ -1,3 +1,6 @@
+  @import "font-awesome-sprockets";
+  @import "font-awesome";
+
 #nav-tab a{
 	height: 60px;
 	padding-top:20px;
@@ -49,7 +52,38 @@
 	display: inline-block;
 }
 
-.card {
+.subheading.gap {
+	margin: 50px 0;
+}
+
+.card-container {
 	margin-top: 20px;
 	margin-bottom: 50px;
+}
+.card {
+	margin: 15px 0;
+}
+
+.container {
+	padding: 60px;
+}
+
+.form-photo {
+	background: url(asset-path('flags.jpg')) no-repeat center center fixed;
+  	background-size: cover;
+  	height: 500px;
+  	padding-top: 150px
+}
+
+.panel li {
+	list-style-type: none;
+	font-size: 17px;
+}
+
+.panel ul {
+	-webkit-padding-start: 20px;
+}
+
+.container a:hover {
+	color: inherit;
 }
