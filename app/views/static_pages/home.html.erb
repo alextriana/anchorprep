@@ -1,14 +1,21 @@
 <div class="site-wrapper" >
 	<div class="site-wrapper-inner">
+             <% flash.each do |name, msg| %>
+  <% if msg.is_a?(String) %>
+    <%= content_tag :div, msg, :class => "alert alert-dismissible alert-#{name}", :style => "width:500px; margin: 10px auto; text-shadow: none" %>
+  <% end %>
+<% end %>
 		<div class="cover-container"  id="cover-banner">
+
 			<div class="inner cover">
+
 				<h1 class="cover-heading">Set Sail for College</h1>
 				<p class="lead">Navigating college admissions can be complex.  AnchorPrep takes the angst out of applying to college. We’ll help you learn the ropes while keeping the process positive and streamlined. With AnchorPrep you’ll maximize your college choice potential and discover your best-fit college.</p>
 				<p class="lead">
 					<a href="#provide" class="btn btn-lg btn-primary">Learn more</a>
 				</p>
         <div class="testimonial">
-          <div class="alert alert-dismissible alert-success" style="width: 450px; height: 110px">
+          <div class="alert alert-dismissible alert-info" style="width: 450px; height: 110px">
   <button type="button" class="close" data-dismiss="alert" >×</button>
   <strong>Testimonials</strong><br>"AnchorPrep saved my college application. Applying to college is overwhelming, and Katie and Kathryn help me get into my dream school!" - Alex Triana, UC Berkeley 2016
 </div>
@@ -46,7 +53,7 @@
 </div>
 <div class="form-photo">
 	<div class="row well col-lg-8 col-lg-offset-2">
-		      <%= form_tag submit_contact_form_path, :class => "form-horizontal" do %>
+		      <%= form_tag mailer_signup_path, :class => "form-horizontal" do %>
       <fieldset>
         <legend>Stay Up to Date with our Latest and Greatest</legend>
         <div class="form-group">

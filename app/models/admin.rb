@@ -3,4 +3,11 @@ class Admin < ActiveRecord::Base
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
+
+  def self.alert_of_contact_request(user, body)
+  	@admins = Admin.all
+  	@admins.each do |admin|
+    	UserMailer.contact_alert(admin, user, body).deliver_now
+    end
+  end
 end

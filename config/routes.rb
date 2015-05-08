@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   devise_for :admins
   resources :updates
+  resources :users
 
   resources :colleges
   get '/home', to: 'static_pages#home', as: 'home'
@@ -16,7 +17,8 @@ Rails.application.routes.draw do
 
   root 'static_pages#home'
 
-  post '/submit-contact-form', to: 'static_pages#submit_contact_form', as: 'submit_contact_form'
+  post '/contact-form', to: 'static_pages#submit_contact_form', as: 'submit_contact_form'
+  post '/mailer/signup', to: 'users#create', as: 'mailer_signup'
 
   devise_scope :admin do
     get "/admin", to: "devise/sessions#new"

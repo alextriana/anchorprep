@@ -1,5 +1,6 @@
 class StaticPagesController < ApplicationController
   def home
+    @user = User.new
   end
 
   def about
@@ -15,22 +16,12 @@ class StaticPagesController < ApplicationController
   end
 
   def submit_contact_form
-    @admins = Admin.all
-    if User.exists?(email: params[:email]) == false
-    	user = User.create!(email: params[:email], first_name: params[:first_name], last_name:params[:last_name], relationship: params[:relationship])
-    else
-    	user = User.where(email: params[:email])
-    end
-    @admins.each do |admin|
-    	UserMailer.contact_alert(admin, user, params[:body]).deliver_now
-    end
-    UserMailer.contact_confirmation(user).deliver_now
-      
-    flash.keep
+    permitted_params = params.permit(:email, :first_name, :last_name, :graduation, :relationship)
+    @user = User.add_or_update(permitted_params)
+    @user.send_contact_confirmation
+    Admin.alert_of_contact_request(@user, params[:body])
     flash[:notice] = "Your request has been submitted. You should recieve a confirmation email shortly."
     redirect_to contact_path
   end
 
-  def signup
-  end
 end

@@ -1,4 +1,9 @@
 <div class="container">
+  <% flash.each do |name, msg| %>
+  <% if msg.is_a?(String) %>
+    <%= content_tag :div, msg, :class => "alert alert-dismissible alert-#{name}", :style => "width:500px; margin: 10px auto; text-shadow: none" %>
+  <% end %>
+<% end %>
 <div class="row">
   <div class="col-lg-6">
     <div class="well bs-component">
@@ -28,8 +33,6 @@
           <%= label_tag(:body, "Email Body", :class => 'col-lg-2 control-label') %>
           <div class="col-lg-10">
             <%= text_area_tag :body, "", :placeholder => "Text", :id => 'email-body', :class => 'form-control' %>
-            
-            <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
           </div>
         </div>
         <div class="form-group">
@@ -37,31 +40,36 @@
           <div class="col-lg-10">
             <div class="radio">
               <label>
-                <%= radio_button_tag(:type, "Parent") %>
+                <%= radio_button_tag(:relationship, "Parent") %>
                 I am a parent
               </label>
             </div>
             <div class="radio">
               <label>
-                <%= radio_button_tag(:type, "Student") %>
+                <%= radio_button_tag(:relationship, "Student") %>
                 I am a student
               </label>
             </div>
           </div>
         </div>
         <div class="form-group">
-          <div class="col-lg-10 col-lg-offset-2">
+        <label class=" control-label">Student's High School Graduation Year</label>
+
+                      <%= select_tag :graduation, options_for_select([2016,2017,2018,2019,2020]), :class => "form-control col-lg-offset-2", :style => "width:40%"%>
+                    </div>
+        <div class="form-group">
+          <div class="col-lg-offset-2">
             <%= submit_tag "Send Email", :class => 'btn btn-primary' %>
           </div>
         </div>
       </fieldset>
     <% end %>
-    <div id="source-button" class="btn btn-primary btn-xs" style="display: none;">&lt; &gt;</div></div>
-  </div>
+  <!-- </div> -->
+</div>
   <div class="col-lg-6">
       <div class="panel panel-info">
                 <div class="panel-heading">
-                  Remember
+                  Available to All!
                 </div>
                 <div class="panel-body">
                   AnchorPrep not only offers in person, one-on-one tutoring for residents local to the Manhattan Beach and Hermosa area, but also virtual counciling via Skype to students all over the country!
