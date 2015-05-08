@@ -1,4 +1,4 @@
-	/*
+@charset "UTF-8";	/*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
@@ -50,7 +50,7 @@ body {
   min-height: 100%;
   -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
   box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
-  background: url("/assets/test-5fb640d61b75e056f2f8ab930f854385.jpg") no-repeat center center fixed;
+  background: url("/assets/graduation-24116937b5b300442fb4c33fbda17417.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -101,64 +101,15 @@ a:hover {
   margin-bottom: 10px;
 }
 
-/* line 76, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
-.masthead-nav > li {
-  display: inline-block;
-}
-
-/* line 79, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
-.masthead-nav > li + li {
-  margin-left: 20px;
-}
-
-/* line 82, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
-.masthead-nav > li > a {
-  padding-right: 0;
-  padding-left: 0;
-  font-size: 16px;
-  font-weight: bold;
-  color: #fff;
-  /* IE8 proofing */
-  color: rgba(255, 255, 255, 0.75);
-  border-bottom: 2px solid transparent;
-}
-
-/* line 91, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
-.masthead-nav > li > a:hover,
-.masthead-nav > li > a:focus {
-  background-color: transparent;
-  border-bottom-color: #a9a9a9;
-  border-bottom-color: rgba(255, 255, 255, 0.25);
-}
-
-/* line 97, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
-.masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
-}
-
-@media (min-width: 768px) {
-  /* line 105, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
-  .masthead-brand {
-    float: left;
-  }
-
-  /* line 108, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
-  .masthead-nav {
-    float: right;
-  }
-}
 /*
  * Cover
  */
-/* line 118, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
+/* line 82, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
 .cover {
-  padding: 0 20px;
+  padding: 25px 20px;
 }
 
-/* line 121, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
+/* line 85, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
 .cover .btn-lg {
   padding: 10px 20px;
   font-weight: bold;
@@ -167,7 +118,7 @@ a:hover {
 /*
  * Footer
  */
-/* line 131, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
+/* line 95, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
 .mastfoot {
   color: #999;
   /* IE8 proofing */
@@ -179,26 +130,26 @@ a:hover {
  */
 @media (min-width: 768px) {
   /* Pull out the header and footer */
-  /* line 143, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
+  /* line 107, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
   .masthead {
     position: fixed;
     top: 0;
   }
 
-  /* line 147, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
+  /* line 111, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
   .mastfoot {
     position: fixed;
     bottom: 10;
   }
 
   /* Start the vertical centering */
-  /* line 152, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
+  /* line 116, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
   .site-wrapper-inner {
     vertical-align: middle;
   }
 
   /* Handle the widths */
-  /* line 156, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
+  /* line 120, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
   .masthead,
   .mastfoot,
   .cover-container {
@@ -207,53 +158,3064 @@ a:hover {
   }
 }
 @media (min-width: 992px) {
-  /* line 164, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
+  /* line 128, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
   .masthead,
   .mastfoot,
   .cover-container {
     width: 700px;
   }
 }
-/* line 1, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+
+/*!
+ *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("/assets/font-awesome/fontawesome-webfont-4cf06051de8689239e7087de4b11649c.eot");
+  src: url("/assets/font-awesome/fontawesome-webfont-4cf06051de8689239e7087de4b11649c.eot?#iefix") format("embedded-opentype"), url("/assets/font-awesome/fontawesome-webfont-bdd5fe963cf9a6bcf9c449166e2e5a57.woff2") format("woff2"), url("/assets/font-awesome/fontawesome-webfont-e1e9796e37de923cfba919958e1e7fb0.woff") format("woff"), url("/assets/font-awesome/fontawesome-webfont-d920bcf0942384a482f36f878d199d56.ttf") format("truetype"), url("/assets/font-awesome/fontawesome-webfont-94502ffb2152a9d2797417d053c954d0.svg#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 4, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_core.scss */
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+
+/* makes the font 33% larger relative to the icon container */
+/* line 5, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_larger.scss */
+.fa-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+
+/* line 10, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_larger.scss */
+.fa-2x {
+  font-size: 2em;
+}
+
+/* line 11, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_larger.scss */
+.fa-3x {
+  font-size: 3em;
+}
+
+/* line 12, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_larger.scss */
+.fa-4x {
+  font-size: 4em;
+}
+
+/* line 13, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_larger.scss */
+.fa-5x {
+  font-size: 5em;
+}
+
+/* line 3, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_fixed-width.scss */
+.fa-fw {
+  width: 1.28571em;
+  text-align: center;
+}
+
+/* line 4, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_list.scss */
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14286em;
+  list-style-type: none;
+}
+/* line 8, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_list.scss */
+.fa-ul > li {
+  position: relative;
+}
+
+/* line 10, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_list.scss */
+.fa-li {
+  position: absolute;
+  left: -2.14286em;
+  width: 2.14286em;
+  top: 0.14286em;
+  text-align: center;
+}
+/* line 16, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_list.scss */
+.fa-li.fa-lg {
+  left: -1.85714em;
+}
+
+/* line 4, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_bordered-pulled.scss */
+.fa-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eee;
+  border-radius: .1em;
+}
+
+/* line 10, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_bordered-pulled.scss */
+.pull-right {
+  float: right;
+}
+
+/* line 11, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_bordered-pulled.scss */
+.pull-left {
+  float: left;
+}
+
+/* line 14, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_bordered-pulled.scss */
+.fa.pull-left {
+  margin-right: .3em;
+}
+/* line 15, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_bordered-pulled.scss */
+.fa.pull-right {
+  margin-left: .3em;
+}
+
+/* line 4, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_animated.scss */
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+
+/* line 9, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_animated.scss */
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+/* line 4, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_rotated-flipped.scss */
+.fa-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* line 5, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_rotated-flipped.scss */
+.fa-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* line 6, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_rotated-flipped.scss */
+.fa-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+/* line 8, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_rotated-flipped.scss */
+.fa-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+/* line 9, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_rotated-flipped.scss */
+.fa-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+/* line 14, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_rotated-flipped.scss */
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical {
+  filter: none;
+}
+
+/* line 4, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_stacked.scss */
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+
+/* line 12, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_stacked.scss */
+.fa-stack-1x, .fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 18, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_stacked.scss */
+.fa-stack-1x {
+  line-height: inherit;
+}
+
+/* line 19, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_stacked.scss */
+.fa-stack-2x {
+  font-size: 2em;
+}
+
+/* line 20, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_stacked.scss */
+.fa-inverse {
+  color: #fff;
+}
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+/* line 4, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-glass:before {
+  content: "";
+}
+
+/* line 5, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-music:before {
+  content: "";
+}
+
+/* line 6, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-search:before {
+  content: "";
+}
+
+/* line 7, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-envelope-o:before {
+  content: "";
+}
+
+/* line 8, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-heart:before {
+  content: "";
+}
+
+/* line 9, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-star:before {
+  content: "";
+}
+
+/* line 10, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-star-o:before {
+  content: "";
+}
+
+/* line 11, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-user:before {
+  content: "";
+}
+
+/* line 12, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-film:before {
+  content: "";
+}
+
+/* line 13, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-th-large:before {
+  content: "";
+}
+
+/* line 14, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-th:before {
+  content: "";
+}
+
+/* line 15, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-th-list:before {
+  content: "";
+}
+
+/* line 16, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-check:before {
+  content: "";
+}
+
+/* line 17, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-remove:before,
+.fa-close:before,
+.fa-times:before {
+  content: "";
+}
+
+/* line 20, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-search-plus:before {
+  content: "";
+}
+
+/* line 21, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-search-minus:before {
+  content: "";
+}
+
+/* line 22, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-power-off:before {
+  content: "";
+}
+
+/* line 23, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-signal:before {
+  content: "";
+}
+
+/* line 24, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gear:before,
+.fa-cog:before {
+  content: "";
+}
+
+/* line 26, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-trash-o:before {
+  content: "";
+}
+
+/* line 27, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-home:before {
+  content: "";
+}
+
+/* line 28, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-o:before {
+  content: "";
+}
+
+/* line 29, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-clock-o:before {
+  content: "";
+}
+
+/* line 30, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-road:before {
+  content: "";
+}
+
+/* line 31, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-download:before {
+  content: "";
+}
+
+/* line 32, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-o-down:before {
+  content: "";
+}
+
+/* line 33, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-o-up:before {
+  content: "";
+}
+
+/* line 34, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-inbox:before {
+  content: "";
+}
+
+/* line 35, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-play-circle-o:before {
+  content: "";
+}
+
+/* line 36, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-rotate-right:before,
+.fa-repeat:before {
+  content: "";
+}
+
+/* line 38, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-refresh:before {
+  content: "";
+}
+
+/* line 39, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-list-alt:before {
+  content: "";
+}
+
+/* line 40, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-lock:before {
+  content: "";
+}
+
+/* line 41, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-flag:before {
+  content: "";
+}
+
+/* line 42, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-headphones:before {
+  content: "";
+}
+
+/* line 43, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-volume-off:before {
+  content: "";
+}
+
+/* line 44, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-volume-down:before {
+  content: "";
+}
+
+/* line 45, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-volume-up:before {
+  content: "";
+}
+
+/* line 46, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-qrcode:before {
+  content: "";
+}
+
+/* line 47, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-barcode:before {
+  content: "";
+}
+
+/* line 48, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tag:before {
+  content: "";
+}
+
+/* line 49, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tags:before {
+  content: "";
+}
+
+/* line 50, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-book:before {
+  content: "";
+}
+
+/* line 51, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bookmark:before {
+  content: "";
+}
+
+/* line 52, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-print:before {
+  content: "";
+}
+
+/* line 53, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-camera:before {
+  content: "";
+}
+
+/* line 54, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-font:before {
+  content: "";
+}
+
+/* line 55, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bold:before {
+  content: "";
+}
+
+/* line 56, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-italic:before {
+  content: "";
+}
+
+/* line 57, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-text-height:before {
+  content: "";
+}
+
+/* line 58, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-text-width:before {
+  content: "";
+}
+
+/* line 59, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-align-left:before {
+  content: "";
+}
+
+/* line 60, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-align-center:before {
+  content: "";
+}
+
+/* line 61, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-align-right:before {
+  content: "";
+}
+
+/* line 62, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-align-justify:before {
+  content: "";
+}
+
+/* line 63, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-list:before {
+  content: "";
+}
+
+/* line 64, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dedent:before,
+.fa-outdent:before {
+  content: "";
+}
+
+/* line 66, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-indent:before {
+  content: "";
+}
+
+/* line 67, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-video-camera:before {
+  content: "";
+}
+
+/* line 68, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-photo:before,
+.fa-image:before,
+.fa-picture-o:before {
+  content: "";
+}
+
+/* line 71, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pencil:before {
+  content: "";
+}
+
+/* line 72, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-map-marker:before {
+  content: "";
+}
+
+/* line 73, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-adjust:before {
+  content: "";
+}
+
+/* line 74, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tint:before {
+  content: "";
+}
+
+/* line 75, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-edit:before,
+.fa-pencil-square-o:before {
+  content: "";
+}
+
+/* line 77, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-share-square-o:before {
+  content: "";
+}
+
+/* line 78, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-check-square-o:before {
+  content: "";
+}
+
+/* line 79, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrows:before {
+  content: "";
+}
+
+/* line 80, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-step-backward:before {
+  content: "";
+}
+
+/* line 81, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fast-backward:before {
+  content: "";
+}
+
+/* line 82, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-backward:before {
+  content: "";
+}
+
+/* line 83, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-play:before {
+  content: "";
+}
+
+/* line 84, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pause:before {
+  content: "";
+}
+
+/* line 85, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stop:before {
+  content: "";
+}
+
+/* line 86, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-forward:before {
+  content: "";
+}
+
+/* line 87, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fast-forward:before {
+  content: "";
+}
+
+/* line 88, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-step-forward:before {
+  content: "";
+}
+
+/* line 89, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-eject:before {
+  content: "";
+}
+
+/* line 90, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-left:before {
+  content: "";
+}
+
+/* line 91, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-right:before {
+  content: "";
+}
+
+/* line 92, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-plus-circle:before {
+  content: "";
+}
+
+/* line 93, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-minus-circle:before {
+  content: "";
+}
+
+/* line 94, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-times-circle:before {
+  content: "";
+}
+
+/* line 95, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-check-circle:before {
+  content: "";
+}
+
+/* line 96, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-question-circle:before {
+  content: "";
+}
+
+/* line 97, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-info-circle:before {
+  content: "";
+}
+
+/* line 98, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-crosshairs:before {
+  content: "";
+}
+
+/* line 99, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-times-circle-o:before {
+  content: "";
+}
+
+/* line 100, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-check-circle-o:before {
+  content: "";
+}
+
+/* line 101, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ban:before {
+  content: "";
+}
+
+/* line 102, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-left:before {
+  content: "";
+}
+
+/* line 103, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-right:before {
+  content: "";
+}
+
+/* line 104, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-up:before {
+  content: "";
+}
+
+/* line 105, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-down:before {
+  content: "";
+}
+
+/* line 106, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mail-forward:before,
+.fa-share:before {
+  content: "";
+}
+
+/* line 108, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-expand:before {
+  content: "";
+}
+
+/* line 109, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-compress:before {
+  content: "";
+}
+
+/* line 110, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-plus:before {
+  content: "";
+}
+
+/* line 111, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-minus:before {
+  content: "";
+}
+
+/* line 112, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-asterisk:before {
+  content: "";
+}
+
+/* line 113, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-exclamation-circle:before {
+  content: "";
+}
+
+/* line 114, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gift:before {
+  content: "";
+}
+
+/* line 115, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-leaf:before {
+  content: "";
+}
+
+/* line 116, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fire:before {
+  content: "";
+}
+
+/* line 117, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-eye:before {
+  content: "";
+}
+
+/* line 118, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-eye-slash:before {
+  content: "";
+}
+
+/* line 119, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-warning:before,
+.fa-exclamation-triangle:before {
+  content: "";
+}
+
+/* line 121, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-plane:before {
+  content: "";
+}
+
+/* line 122, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-calendar:before {
+  content: "";
+}
+
+/* line 123, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-random:before {
+  content: "";
+}
+
+/* line 124, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-comment:before {
+  content: "";
+}
+
+/* line 125, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-magnet:before {
+  content: "";
+}
+
+/* line 126, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-up:before {
+  content: "";
+}
+
+/* line 127, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-down:before {
+  content: "";
+}
+
+/* line 128, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-retweet:before {
+  content: "";
+}
+
+/* line 129, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-shopping-cart:before {
+  content: "";
+}
+
+/* line 130, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-folder:before {
+  content: "";
+}
+
+/* line 131, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-folder-open:before {
+  content: "";
+}
+
+/* line 132, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrows-v:before {
+  content: "";
+}
+
+/* line 133, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrows-h:before {
+  content: "";
+}
+
+/* line 134, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bar-chart-o:before,
+.fa-bar-chart:before {
+  content: "";
+}
+
+/* line 136, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-twitter-square:before {
+  content: "";
+}
+
+/* line 137, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-facebook-square:before {
+  content: "";
+}
+
+/* line 138, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-camera-retro:before {
+  content: "";
+}
+
+/* line 139, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-key:before {
+  content: "";
+}
+
+/* line 140, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gears:before,
+.fa-cogs:before {
+  content: "";
+}
+
+/* line 142, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-comments:before {
+  content: "";
+}
+
+/* line 143, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-thumbs-o-up:before {
+  content: "";
+}
+
+/* line 144, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-thumbs-o-down:before {
+  content: "";
+}
+
+/* line 145, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-star-half:before {
+  content: "";
+}
+
+/* line 146, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-heart-o:before {
+  content: "";
+}
+
+/* line 147, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sign-out:before {
+  content: "";
+}
+
+/* line 148, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-linkedin-square:before {
+  content: "";
+}
+
+/* line 149, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-thumb-tack:before {
+  content: "";
+}
+
+/* line 150, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-external-link:before {
+  content: "";
+}
+
+/* line 151, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sign-in:before {
+  content: "";
+}
+
+/* line 152, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-trophy:before {
+  content: "";
+}
+
+/* line 153, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-github-square:before {
+  content: "";
+}
+
+/* line 154, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-upload:before {
+  content: "";
+}
+
+/* line 155, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-lemon-o:before {
+  content: "";
+}
+
+/* line 156, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-phone:before {
+  content: "";
+}
+
+/* line 157, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-square-o:before {
+  content: "";
+}
+
+/* line 158, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bookmark-o:before {
+  content: "";
+}
+
+/* line 159, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-phone-square:before {
+  content: "";
+}
+
+/* line 160, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-twitter:before {
+  content: "";
+}
+
+/* line 161, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-facebook-f:before,
+.fa-facebook:before {
+  content: "";
+}
+
+/* line 163, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-github:before {
+  content: "";
+}
+
+/* line 164, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-unlock:before {
+  content: "";
+}
+
+/* line 165, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-credit-card:before {
+  content: "";
+}
+
+/* line 166, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-rss:before {
+  content: "";
+}
+
+/* line 167, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hdd-o:before {
+  content: "";
+}
+
+/* line 168, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bullhorn:before {
+  content: "";
+}
+
+/* line 169, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bell:before {
+  content: "";
+}
+
+/* line 170, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-certificate:before {
+  content: "";
+}
+
+/* line 171, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hand-o-right:before {
+  content: "";
+}
+
+/* line 172, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hand-o-left:before {
+  content: "";
+}
+
+/* line 173, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hand-o-up:before {
+  content: "";
+}
+
+/* line 174, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hand-o-down:before {
+  content: "";
+}
+
+/* line 175, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-left:before {
+  content: "";
+}
+
+/* line 176, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-right:before {
+  content: "";
+}
+
+/* line 177, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-up:before {
+  content: "";
+}
+
+/* line 178, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-down:before {
+  content: "";
+}
+
+/* line 179, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-globe:before {
+  content: "";
+}
+
+/* line 180, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-wrench:before {
+  content: "";
+}
+
+/* line 181, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tasks:before {
+  content: "";
+}
+
+/* line 182, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-filter:before {
+  content: "";
+}
+
+/* line 183, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-briefcase:before {
+  content: "";
+}
+
+/* line 184, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrows-alt:before {
+  content: "";
+}
+
+/* line 185, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-group:before,
+.fa-users:before {
+  content: "";
+}
+
+/* line 187, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chain:before,
+.fa-link:before {
+  content: "";
+}
+
+/* line 189, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cloud:before {
+  content: "";
+}
+
+/* line 190, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-flask:before {
+  content: "";
+}
+
+/* line 191, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cut:before,
+.fa-scissors:before {
+  content: "";
+}
+
+/* line 193, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-copy:before,
+.fa-files-o:before {
+  content: "";
+}
+
+/* line 195, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-paperclip:before {
+  content: "";
+}
+
+/* line 196, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-save:before,
+.fa-floppy-o:before {
+  content: "";
+}
+
+/* line 198, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-square:before {
+  content: "";
+}
+
+/* line 199, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-bars:before {
+  content: "";
+}
+
+/* line 202, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-list-ul:before {
+  content: "";
+}
+
+/* line 203, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-list-ol:before {
+  content: "";
+}
+
+/* line 204, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-strikethrough:before {
+  content: "";
+}
+
+/* line 205, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-underline:before {
+  content: "";
+}
+
+/* line 206, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-table:before {
+  content: "";
+}
+
+/* line 207, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-magic:before {
+  content: "";
+}
+
+/* line 208, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-truck:before {
+  content: "";
+}
+
+/* line 209, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pinterest:before {
+  content: "";
+}
+
+/* line 210, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pinterest-square:before {
+  content: "";
+}
+
+/* line 211, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-google-plus-square:before {
+  content: "";
+}
+
+/* line 212, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-google-plus:before {
+  content: "";
+}
+
+/* line 213, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-money:before {
+  content: "";
+}
+
+/* line 214, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-caret-down:before {
+  content: "";
+}
+
+/* line 215, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-caret-up:before {
+  content: "";
+}
+
+/* line 216, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-caret-left:before {
+  content: "";
+}
+
+/* line 217, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-caret-right:before {
+  content: "";
+}
+
+/* line 218, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-columns:before {
+  content: "";
+}
+
+/* line 219, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-unsorted:before,
+.fa-sort:before {
+  content: "";
+}
+
+/* line 221, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-down:before,
+.fa-sort-desc:before {
+  content: "";
+}
+
+/* line 223, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-up:before,
+.fa-sort-asc:before {
+  content: "";
+}
+
+/* line 225, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-envelope:before {
+  content: "";
+}
+
+/* line 226, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-linkedin:before {
+  content: "";
+}
+
+/* line 227, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-rotate-left:before,
+.fa-undo:before {
+  content: "";
+}
+
+/* line 229, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-legal:before,
+.fa-gavel:before {
+  content: "";
+}
+
+/* line 231, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dashboard:before,
+.fa-tachometer:before {
+  content: "";
+}
+
+/* line 233, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-comment-o:before {
+  content: "";
+}
+
+/* line 234, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-comments-o:before {
+  content: "";
+}
+
+/* line 235, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-flash:before,
+.fa-bolt:before {
+  content: "";
+}
+
+/* line 237, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sitemap:before {
+  content: "";
+}
+
+/* line 238, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-umbrella:before {
+  content: "";
+}
+
+/* line 239, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-paste:before,
+.fa-clipboard:before {
+  content: "";
+}
+
+/* line 241, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-lightbulb-o:before {
+  content: "";
+}
+
+/* line 242, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-exchange:before {
+  content: "";
+}
+
+/* line 243, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cloud-download:before {
+  content: "";
+}
+
+/* line 244, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cloud-upload:before {
+  content: "";
+}
+
+/* line 245, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-user-md:before {
+  content: "";
+}
+
+/* line 246, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stethoscope:before {
+  content: "";
+}
+
+/* line 247, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-suitcase:before {
+  content: "";
+}
+
+/* line 248, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bell-o:before {
+  content: "";
+}
+
+/* line 249, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-coffee:before {
+  content: "";
+}
+
+/* line 250, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cutlery:before {
+  content: "";
+}
+
+/* line 251, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-text-o:before {
+  content: "";
+}
+
+/* line 252, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-building-o:before {
+  content: "";
+}
+
+/* line 253, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hospital-o:before {
+  content: "";
+}
+
+/* line 254, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ambulance:before {
+  content: "";
+}
+
+/* line 255, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-medkit:before {
+  content: "";
+}
+
+/* line 256, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fighter-jet:before {
+  content: "";
+}
+
+/* line 257, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-beer:before {
+  content: "";
+}
+
+/* line 258, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-h-square:before {
+  content: "";
+}
+
+/* line 259, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-plus-square:before {
+  content: "";
+}
+
+/* line 260, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-double-left:before {
+  content: "";
+}
+
+/* line 261, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-double-right:before {
+  content: "";
+}
+
+/* line 262, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-double-up:before {
+  content: "";
+}
+
+/* line 263, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-double-down:before {
+  content: "";
+}
+
+/* line 264, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-left:before {
+  content: "";
+}
+
+/* line 265, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-right:before {
+  content: "";
+}
+
+/* line 266, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-up:before {
+  content: "";
+}
+
+/* line 267, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angle-down:before {
+  content: "";
+}
+
+/* line 268, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-desktop:before {
+  content: "";
+}
+
+/* line 269, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-laptop:before {
+  content: "";
+}
+
+/* line 270, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tablet:before {
+  content: "";
+}
+
+/* line 271, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mobile-phone:before,
+.fa-mobile:before {
+  content: "";
+}
+
+/* line 273, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-circle-o:before {
+  content: "";
+}
+
+/* line 274, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-quote-left:before {
+  content: "";
+}
+
+/* line 275, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-quote-right:before {
+  content: "";
+}
+
+/* line 276, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-spinner:before {
+  content: "";
+}
+
+/* line 277, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-circle:before {
+  content: "";
+}
+
+/* line 278, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mail-reply:before,
+.fa-reply:before {
+  content: "";
+}
+
+/* line 280, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-github-alt:before {
+  content: "";
+}
+
+/* line 281, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-folder-o:before {
+  content: "";
+}
+
+/* line 282, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-folder-open-o:before {
+  content: "";
+}
+
+/* line 283, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-smile-o:before {
+  content: "";
+}
+
+/* line 284, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-frown-o:before {
+  content: "";
+}
+
+/* line 285, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-meh-o:before {
+  content: "";
+}
+
+/* line 286, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gamepad:before {
+  content: "";
+}
+
+/* line 287, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-keyboard-o:before {
+  content: "";
+}
+
+/* line 288, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-flag-o:before {
+  content: "";
+}
+
+/* line 289, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-flag-checkered:before {
+  content: "";
+}
+
+/* line 290, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-terminal:before {
+  content: "";
+}
+
+/* line 291, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-code:before {
+  content: "";
+}
+
+/* line 292, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mail-reply-all:before,
+.fa-reply-all:before {
+  content: "";
+}
+
+/* line 294, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-star-half-empty:before,
+.fa-star-half-full:before,
+.fa-star-half-o:before {
+  content: "";
+}
+
+/* line 297, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-location-arrow:before {
+  content: "";
+}
+
+/* line 298, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-crop:before {
+  content: "";
+}
+
+/* line 299, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-code-fork:before {
+  content: "";
+}
+
+/* line 300, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-unlink:before,
+.fa-chain-broken:before {
+  content: "";
+}
+
+/* line 302, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-question:before {
+  content: "";
+}
+
+/* line 303, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-info:before {
+  content: "";
+}
+
+/* line 304, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-exclamation:before {
+  content: "";
+}
+
+/* line 305, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-superscript:before {
+  content: "";
+}
+
+/* line 306, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-subscript:before {
+  content: "";
+}
+
+/* line 307, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-eraser:before {
+  content: "";
+}
+
+/* line 308, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-puzzle-piece:before {
+  content: "";
+}
+
+/* line 309, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-microphone:before {
+  content: "";
+}
+
+/* line 310, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-microphone-slash:before {
+  content: "";
+}
+
+/* line 311, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-shield:before {
+  content: "";
+}
+
+/* line 312, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-calendar-o:before {
+  content: "";
+}
+
+/* line 313, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fire-extinguisher:before {
+  content: "";
+}
+
+/* line 314, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-rocket:before {
+  content: "";
+}
+
+/* line 315, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-maxcdn:before {
+  content: "";
+}
+
+/* line 316, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-circle-left:before {
+  content: "";
+}
+
+/* line 317, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-circle-right:before {
+  content: "";
+}
+
+/* line 318, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-circle-up:before {
+  content: "";
+}
+
+/* line 319, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-chevron-circle-down:before {
+  content: "";
+}
+
+/* line 320, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-html5:before {
+  content: "";
+}
+
+/* line 321, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-css3:before {
+  content: "";
+}
+
+/* line 322, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-anchor:before {
+  content: "";
+}
+
+/* line 323, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-unlock-alt:before {
+  content: "";
+}
+
+/* line 324, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bullseye:before {
+  content: "";
+}
+
+/* line 325, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ellipsis-h:before {
+  content: "";
+}
+
+/* line 326, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ellipsis-v:before {
+  content: "";
+}
+
+/* line 327, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-rss-square:before {
+  content: "";
+}
+
+/* line 328, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-play-circle:before {
+  content: "";
+}
+
+/* line 329, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ticket:before {
+  content: "";
+}
+
+/* line 330, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-minus-square:before {
+  content: "";
+}
+
+/* line 331, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-minus-square-o:before {
+  content: "";
+}
+
+/* line 332, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-level-up:before {
+  content: "";
+}
+
+/* line 333, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-level-down:before {
+  content: "";
+}
+
+/* line 334, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-check-square:before {
+  content: "";
+}
+
+/* line 335, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pencil-square:before {
+  content: "";
+}
+
+/* line 336, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-external-link-square:before {
+  content: "";
+}
+
+/* line 337, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-share-square:before {
+  content: "";
+}
+
+/* line 338, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-compass:before {
+  content: "";
+}
+
+/* line 339, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-toggle-down:before,
+.fa-caret-square-o-down:before {
+  content: "";
+}
+
+/* line 341, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-toggle-up:before,
+.fa-caret-square-o-up:before {
+  content: "";
+}
+
+/* line 343, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-toggle-right:before,
+.fa-caret-square-o-right:before {
+  content: "";
+}
+
+/* line 345, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-euro:before,
+.fa-eur:before {
+  content: "";
+}
+
+/* line 347, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gbp:before {
+  content: "";
+}
+
+/* line 348, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dollar:before,
+.fa-usd:before {
+  content: "";
+}
+
+/* line 350, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-rupee:before,
+.fa-inr:before {
+  content: "";
+}
+
+/* line 352, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cny:before,
+.fa-rmb:before,
+.fa-yen:before,
+.fa-jpy:before {
+  content: "";
+}
+
+/* line 356, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ruble:before,
+.fa-rouble:before,
+.fa-rub:before {
+  content: "";
+}
+
+/* line 359, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-won:before,
+.fa-krw:before {
+  content: "";
+}
+
+/* line 361, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bitcoin:before,
+.fa-btc:before {
+  content: "";
+}
+
+/* line 363, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file:before {
+  content: "";
+}
+
+/* line 364, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-text:before {
+  content: "";
+}
+
+/* line 365, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-alpha-asc:before {
+  content: "";
+}
+
+/* line 366, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-alpha-desc:before {
+  content: "";
+}
+
+/* line 367, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-amount-asc:before {
+  content: "";
+}
+
+/* line 368, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-amount-desc:before {
+  content: "";
+}
+
+/* line 369, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-numeric-asc:before {
+  content: "";
+}
+
+/* line 370, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sort-numeric-desc:before {
+  content: "";
+}
+
+/* line 371, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-thumbs-up:before {
+  content: "";
+}
+
+/* line 372, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-thumbs-down:before {
+  content: "";
+}
+
+/* line 373, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-youtube-square:before {
+  content: "";
+}
+
+/* line 374, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-youtube:before {
+  content: "";
+}
+
+/* line 375, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-xing:before {
+  content: "";
+}
+
+/* line 376, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-xing-square:before {
+  content: "";
+}
+
+/* line 377, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-youtube-play:before {
+  content: "";
+}
+
+/* line 378, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dropbox:before {
+  content: "";
+}
+
+/* line 379, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stack-overflow:before {
+  content: "";
+}
+
+/* line 380, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-instagram:before {
+  content: "";
+}
+
+/* line 381, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-flickr:before {
+  content: "";
+}
+
+/* line 382, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-adn:before {
+  content: "";
+}
+
+/* line 383, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bitbucket:before {
+  content: "";
+}
+
+/* line 384, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bitbucket-square:before {
+  content: "";
+}
+
+/* line 385, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tumblr:before {
+  content: "";
+}
+
+/* line 386, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tumblr-square:before {
+  content: "";
+}
+
+/* line 387, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-long-arrow-down:before {
+  content: "";
+}
+
+/* line 388, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-long-arrow-up:before {
+  content: "";
+}
+
+/* line 389, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-long-arrow-left:before {
+  content: "";
+}
+
+/* line 390, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-long-arrow-right:before {
+  content: "";
+}
+
+/* line 391, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-apple:before {
+  content: "";
+}
+
+/* line 392, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-windows:before {
+  content: "";
+}
+
+/* line 393, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-android:before {
+  content: "";
+}
+
+/* line 394, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-linux:before {
+  content: "";
+}
+
+/* line 395, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dribbble:before {
+  content: "";
+}
+
+/* line 396, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-skype:before {
+  content: "";
+}
+
+/* line 397, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-foursquare:before {
+  content: "";
+}
+
+/* line 398, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-trello:before {
+  content: "";
+}
+
+/* line 399, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-female:before {
+  content: "";
+}
+
+/* line 400, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-male:before {
+  content: "";
+}
+
+/* line 401, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-gittip:before,
+.fa-gratipay:before {
+  content: "";
+}
+
+/* line 403, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sun-o:before {
+  content: "";
+}
+
+/* line 404, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-moon-o:before {
+  content: "";
+}
+
+/* line 405, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-archive:before {
+  content: "";
+}
+
+/* line 406, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bug:before {
+  content: "";
+}
+
+/* line 407, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-vk:before {
+  content: "";
+}
+
+/* line 408, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-weibo:before {
+  content: "";
+}
+
+/* line 409, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-renren:before {
+  content: "";
+}
+
+/* line 410, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pagelines:before {
+  content: "";
+}
+
+/* line 411, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stack-exchange:before {
+  content: "";
+}
+
+/* line 412, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-o-right:before {
+  content: "";
+}
+
+/* line 413, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-arrow-circle-o-left:before {
+  content: "";
+}
+
+/* line 414, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-toggle-left:before,
+.fa-caret-square-o-left:before {
+  content: "";
+}
+
+/* line 416, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dot-circle-o:before {
+  content: "";
+}
+
+/* line 417, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-wheelchair:before {
+  content: "";
+}
+
+/* line 418, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-vimeo-square:before {
+  content: "";
+}
+
+/* line 419, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-turkish-lira:before,
+.fa-try:before {
+  content: "";
+}
+
+/* line 421, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-plus-square-o:before {
+  content: "";
+}
+
+/* line 422, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-space-shuttle:before {
+  content: "";
+}
+
+/* line 423, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-slack:before {
+  content: "";
+}
+
+/* line 424, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-envelope-square:before {
+  content: "";
+}
+
+/* line 425, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-wordpress:before {
+  content: "";
+}
+
+/* line 426, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-openid:before {
+  content: "";
+}
+
+/* line 427, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-institution:before,
+.fa-bank:before,
+.fa-university:before {
+  content: "";
+}
+
+/* line 430, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mortar-board:before,
+.fa-graduation-cap:before {
+  content: "";
+}
+
+/* line 432, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-yahoo:before {
+  content: "";
+}
+
+/* line 433, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-google:before {
+  content: "";
+}
+
+/* line 434, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-reddit:before {
+  content: "";
+}
+
+/* line 435, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-reddit-square:before {
+  content: "";
+}
+
+/* line 436, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stumbleupon-circle:before {
+  content: "";
+}
+
+/* line 437, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-stumbleupon:before {
+  content: "";
+}
+
+/* line 438, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-delicious:before {
+  content: "";
+}
+
+/* line 439, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-digg:before {
+  content: "";
+}
+
+/* line 440, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pied-piper:before {
+  content: "";
+}
+
+/* line 441, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pied-piper-alt:before {
+  content: "";
+}
+
+/* line 442, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-drupal:before {
+  content: "";
+}
+
+/* line 443, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-joomla:before {
+  content: "";
+}
+
+/* line 444, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-language:before {
+  content: "";
+}
+
+/* line 445, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-fax:before {
+  content: "";
+}
+
+/* line 446, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-building:before {
+  content: "";
+}
+
+/* line 447, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-child:before {
+  content: "";
+}
+
+/* line 448, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-paw:before {
+  content: "";
+}
+
+/* line 449, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-spoon:before {
+  content: "";
+}
+
+/* line 450, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cube:before {
+  content: "";
+}
+
+/* line 451, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cubes:before {
+  content: "";
+}
+
+/* line 452, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-behance:before {
+  content: "";
+}
+
+/* line 453, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-behance-square:before {
+  content: "";
+}
+
+/* line 454, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-steam:before {
+  content: "";
+}
+
+/* line 455, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-steam-square:before {
+  content: "";
+}
+
+/* line 456, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-recycle:before {
+  content: "";
+}
+
+/* line 457, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-automobile:before,
+.fa-car:before {
+  content: "";
+}
+
+/* line 459, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cab:before,
+.fa-taxi:before {
+  content: "";
+}
+
+/* line 461, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tree:before {
+  content: "";
+}
+
+/* line 462, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-spotify:before {
+  content: "";
+}
+
+/* line 463, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-deviantart:before {
+  content: "";
+}
+
+/* line 464, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-soundcloud:before {
+  content: "";
+}
+
+/* line 465, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-database:before {
+  content: "";
+}
+
+/* line 466, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-pdf-o:before {
+  content: "";
+}
+
+/* line 467, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-word-o:before {
+  content: "";
+}
+
+/* line 468, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-excel-o:before {
+  content: "";
+}
+
+/* line 469, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-powerpoint-o:before {
+  content: "";
+}
+
+/* line 470, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-photo-o:before,
+.fa-file-picture-o:before,
+.fa-file-image-o:before {
+  content: "";
+}
+
+/* line 473, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-zip-o:before,
+.fa-file-archive-o:before {
+  content: "";
+}
+
+/* line 475, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-sound-o:before,
+.fa-file-audio-o:before {
+  content: "";
+}
+
+/* line 477, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-movie-o:before,
+.fa-file-video-o:before {
+  content: "";
+}
+
+/* line 479, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-file-code-o:before {
+  content: "";
+}
+
+/* line 480, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-vine:before {
+  content: "";
+}
+
+/* line 481, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-codepen:before {
+  content: "";
+}
+
+/* line 482, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-jsfiddle:before {
+  content: "";
+}
+
+/* line 483, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-life-bouy:before,
+.fa-life-buoy:before,
+.fa-life-saver:before,
+.fa-support:before,
+.fa-life-ring:before {
+  content: "";
+}
+
+/* line 488, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-circle-o-notch:before {
+  content: "";
+}
+
+/* line 489, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ra:before,
+.fa-rebel:before {
+  content: "";
+}
+
+/* line 491, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ge:before,
+.fa-empire:before {
+  content: "";
+}
+
+/* line 493, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-git-square:before {
+  content: "";
+}
+
+/* line 494, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-git:before {
+  content: "";
+}
+
+/* line 495, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hacker-news:before {
+  content: "";
+}
+
+/* line 496, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tencent-weibo:before {
+  content: "";
+}
+
+/* line 497, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-qq:before {
+  content: "";
+}
+
+/* line 498, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-wechat:before,
+.fa-weixin:before {
+  content: "";
+}
+
+/* line 500, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-send:before,
+.fa-paper-plane:before {
+  content: "";
+}
+
+/* line 502, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-send-o:before,
+.fa-paper-plane-o:before {
+  content: "";
+}
+
+/* line 504, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-history:before {
+  content: "";
+}
+
+/* line 505, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-genderless:before,
+.fa-circle-thin:before {
+  content: "";
+}
+
+/* line 507, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-header:before {
+  content: "";
+}
+
+/* line 508, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-paragraph:before {
+  content: "";
+}
+
+/* line 509, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sliders:before {
+  content: "";
+}
+
+/* line 510, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-share-alt:before {
+  content: "";
+}
+
+/* line 511, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-share-alt-square:before {
+  content: "";
+}
+
+/* line 512, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bomb:before {
+  content: "";
+}
+
+/* line 513, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-soccer-ball-o:before,
+.fa-futbol-o:before {
+  content: "";
+}
+
+/* line 515, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-tty:before {
+  content: "";
+}
+
+/* line 516, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-binoculars:before {
+  content: "";
+}
+
+/* line 517, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-plug:before {
+  content: "";
+}
+
+/* line 518, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-slideshare:before {
+  content: "";
+}
+
+/* line 519, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-twitch:before {
+  content: "";
+}
+
+/* line 520, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-yelp:before {
+  content: "";
+}
+
+/* line 521, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-newspaper-o:before {
+  content: "";
+}
+
+/* line 522, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-wifi:before {
+  content: "";
+}
+
+/* line 523, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-calculator:before {
+  content: "";
+}
+
+/* line 524, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-paypal:before {
+  content: "";
+}
+
+/* line 525, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-google-wallet:before {
+  content: "";
+}
+
+/* line 526, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-visa:before {
+  content: "";
+}
+
+/* line 527, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-mastercard:before {
+  content: "";
+}
+
+/* line 528, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-discover:before {
+  content: "";
+}
+
+/* line 529, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-amex:before {
+  content: "";
+}
+
+/* line 530, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-paypal:before {
+  content: "";
+}
+
+/* line 531, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc-stripe:before {
+  content: "";
+}
+
+/* line 532, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bell-slash:before {
+  content: "";
+}
+
+/* line 533, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bell-slash-o:before {
+  content: "";
+}
+
+/* line 534, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-trash:before {
+  content: "";
+}
+
+/* line 535, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-copyright:before {
+  content: "";
+}
+
+/* line 536, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-at:before {
+  content: "";
+}
+
+/* line 537, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-eyedropper:before {
+  content: "";
+}
+
+/* line 538, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-paint-brush:before {
+  content: "";
+}
+
+/* line 539, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-birthday-cake:before {
+  content: "";
+}
+
+/* line 540, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-area-chart:before {
+  content: "";
+}
+
+/* line 541, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pie-chart:before {
+  content: "";
+}
+
+/* line 542, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-line-chart:before {
+  content: "";
+}
+
+/* line 543, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-lastfm:before {
+  content: "";
+}
+
+/* line 544, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-lastfm-square:before {
+  content: "";
+}
+
+/* line 545, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-toggle-off:before {
+  content: "";
+}
+
+/* line 546, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-toggle-on:before {
+  content: "";
+}
+
+/* line 547, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bicycle:before {
+  content: "";
+}
+
+/* line 548, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-bus:before {
+  content: "";
+}
+
+/* line 549, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ioxhost:before {
+  content: "";
+}
+
+/* line 550, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-angellist:before {
+  content: "";
+}
+
+/* line 551, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cc:before {
+  content: "";
+}
+
+/* line 552, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-shekel:before,
+.fa-sheqel:before,
+.fa-ils:before {
+  content: "";
+}
+
+/* line 555, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-meanpath:before {
+  content: "";
+}
+
+/* line 556, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-buysellads:before {
+  content: "";
+}
+
+/* line 557, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-connectdevelop:before {
+  content: "";
+}
+
+/* line 558, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-dashcube:before {
+  content: "";
+}
+
+/* line 559, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-forumbee:before {
+  content: "";
+}
+
+/* line 560, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-leanpub:before {
+  content: "";
+}
+
+/* line 561, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-sellsy:before {
+  content: "";
+}
+
+/* line 562, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-shirtsinbulk:before {
+  content: "";
+}
+
+/* line 563, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-simplybuilt:before {
+  content: "";
+}
+
+/* line 564, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-skyatlas:before {
+  content: "";
+}
+
+/* line 565, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cart-plus:before {
+  content: "";
+}
+
+/* line 566, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-cart-arrow-down:before {
+  content: "";
+}
+
+/* line 567, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-diamond:before {
+  content: "";
+}
+
+/* line 568, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-ship:before {
+  content: "";
+}
+
+/* line 569, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-user-secret:before {
+  content: "";
+}
+
+/* line 570, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-motorcycle:before {
+  content: "";
+}
+
+/* line 571, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-street-view:before {
+  content: "";
+}
+
+/* line 572, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-heartbeat:before {
+  content: "";
+}
+
+/* line 573, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-venus:before {
+  content: "";
+}
+
+/* line 574, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mars:before {
+  content: "";
+}
+
+/* line 575, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mercury:before {
+  content: "";
+}
+
+/* line 576, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-transgender:before {
+  content: "";
+}
+
+/* line 577, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-transgender-alt:before {
+  content: "";
+}
+
+/* line 578, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-venus-double:before {
+  content: "";
+}
+
+/* line 579, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mars-double:before {
+  content: "";
+}
+
+/* line 580, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-venus-mars:before {
+  content: "";
+}
+
+/* line 581, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mars-stroke:before {
+  content: "";
+}
+
+/* line 582, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mars-stroke-v:before {
+  content: "";
+}
+
+/* line 583, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-mars-stroke-h:before {
+  content: "";
+}
+
+/* line 584, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-neuter:before {
+  content: "";
+}
+
+/* line 585, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-facebook-official:before {
+  content: "";
+}
+
+/* line 586, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-pinterest-p:before {
+  content: "";
+}
+
+/* line 587, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-whatsapp:before {
+  content: "";
+}
+
+/* line 588, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-server:before {
+  content: "";
+}
+
+/* line 589, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-user-plus:before {
+  content: "";
+}
+
+/* line 590, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-user-times:before {
+  content: "";
+}
+
+/* line 591, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-hotel:before,
+.fa-bed:before {
+  content: "";
+}
+
+/* line 593, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-viacoin:before {
+  content: "";
+}
+
+/* line 594, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-train:before {
+  content: "";
+}
+
+/* line 595, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-subway:before {
+  content: "";
+}
+
+/* line 596, /Users/AlexTriana/.rvm/gems/ruby-2.2.0/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
+.fa-medium:before {
+  content: "";
+}
+
+/* line 4, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 #nav-tab a {
   height: 60px;
   padding-top: 20px;
   font-size: 16px;
 }
 
-/* line 7, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 10, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 #nav-logo a {
   padding: 5px;
   padding-right: 15px;
 }
 
-/* line 12, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 15, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 #cover-banner {
-  background: rgba(255, 255, 255, 0.6);
-  margin-top: 150px;
+  background: rgba(255, 255, 255, 0.8);
   padding: 10px;
   text-shadow: none;
   width: 80%;
 }
 
-/* line 20, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 22, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 #cover-banner p {
   color: black;
 }
 
-/* line 24, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 26, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 .services li {
   list-style-type: none;
 }
 
-/* line 29, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 31, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 .services h3 {
   font-size: 26px;
   color: #022a50;
 }
 
-/* line 34, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 36, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 .services li p {
   font-size: 18px;
   margin-left: 20px;
+}
+
+/* line 42, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+.cover-heading {
+  color: #022a50;
+}
+
+/* line 46, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+.subheading {
+  font-size: 30px;
+  color: #022a50;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #1995dc;
+  display: inline-block;
+}
+
+/* line 54, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+.subheading.gap {
+  margin: 50px 0;
+}
+
+/* line 58, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+.subheading.inverse {
+  color: #1995dc;
+}
+
+/* line 62, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+.card-container {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+/* line 66, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+.card {
+  margin: 15px 0;
+}
+
+/* line 70, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+.container {
+  padding: 60px;
+}
+
+/* line 74, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+.form-photo {
+  background: url("/assets/flags-8041d3f8d71bfaeaf363db2cbf1c568e.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 500px;
+  padding-top: 150px;
+}
+
+/* line 81, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+.panel li {
+  list-style-type: none;
+  font-size: 17px;
+}
+
+/* line 86, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+.panel ul {
+  -webkit-padding-start: 15px;
+}
+
+/* line 90, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+.container a:hover {
+  color: inherit;
+}
+
+/* line 94, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+.book-title {
+  font-style: italic;
+}
+
+/* line 98, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+.resources-list {
+  text-align: center;
+}
+
+/* line 102, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+.resources-list li {
+  display: inline-block;
+  margin: 10px;
+}
+
+/* line 106, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+.resource-container {
+  background-color: #F2F2F2;
+  display: inline-block;
+  padding: 10px 15px;
+  border: 1px solid #e3e3e3;
+}
+
+/* line 115, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+.subtitle {
+  font-style: italic;
+  font-size: 18px;
+  margin: 5px;
+}
+
+/* line 121, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+.college-preview {
+  float: left;
+  vertical-align: top;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+/* line 128, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+.college-feature {
+  margin: 15px 0 30px 0;
+}
+
+/* line 132, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+tr {
+  padding: 10px;
+}
+
+/* line 135, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+td {
+  margin: 10px;
 }

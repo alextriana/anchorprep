@@ -58,34 +58,27 @@
     <% end %>
     <div id="source-button" class="btn btn-primary btn-xs" style="display: none;">&lt; &gt;</div></div>
   </div>
-  <div class="col-lg-4">
+  <div class="col-lg-6">
       <div class="panel panel-info">
                 <div class="panel-heading">
-                  
+                  Remember
                 </div>
                 <div class="panel-body">
                   AnchorPrep not only offers in person, one-on-one tutoring for residents local to the Manhattan Beach and Hermosa area, but also virtual counciling via Skype to students all over the country!
                 </div>
               </div>
-    <div id="map-canvas" class="col-lg-12" style="
-    height: 400px;
-    background-color: #CCC;"></div>
-    <br>
+              <div class="panel panel-success">
+                <div class="panel-heading">
+                  Testimonials
+                </div>
+                <div class="panel-body">
+                  <p>"These guys are the greatest! I would definitely use their service again"</p>
+                  <p>"Katie and Kathyrn are the ultimate homies. They are the smartest college counselors I've ever worked with and I could not be happier."</p>
+                  <p>"These guys are the greatest! I would definitely use their service again"</p>
+                </div>
+              </div>
+    
   
   </div>
 </div>
-<script src="https://maps.googleapis.com/maps/api/js"></script>
-<script>
-  function initialize() {
-    var mapCanvas = document.getElementById('map-canvas');
-    var mapOptions = {
-      center: new google.maps.LatLng(33.8889, -118.4053 ),
-      zoom: 13,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    }
-    var map = new google.maps.Map(mapCanvas, mapOptions);
-  }
-  $(document).ready(initialize)
-  // initialize()
-</script>
 </div>
