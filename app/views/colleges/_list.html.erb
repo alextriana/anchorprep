@@ -1,8 +1,8 @@
     <% @colleges.limit(5).each do |college| %>
     <div style="margin-bottom: 40px;">
      <h2><%= college.name %></h2>
-     <%= image_tag college.photo.url(:medium) %>
-        <p><%= college.summary %></p>
-        <td><%= link_to 'Read More...', college %></td>
+     <%= image_tag college.photo.url(:preview), :class => "college-preview" %>
+        <p style="display:inline-block; width: 61%"><%= truncate college.summary, :length => 500 %></p>
+        <%= link_to 'Read More...', college %>
       </div>
     <% end %>
