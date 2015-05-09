@@ -14,6 +14,7 @@
 
 
 
+
  */
 
 /*!
@@ -50,7 +51,7 @@ body {
   min-height: 100%;
   -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
   box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
-  background: url("/assets/test-5fb640d61b75e056f2f8ab930f854385.jpg") no-repeat center center fixed;
+  background: url("/assets/graduation-24116937b5b300442fb4c33fbda17417.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -101,64 +102,15 @@ a:hover {
   margin-bottom: 10px;
 }
 
-/* line 76, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
-.masthead-nav > li {
-  display: inline-block;
-}
-
-/* line 79, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
-.masthead-nav > li + li {
-  margin-left: 20px;
-}
-
-/* line 82, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
-.masthead-nav > li > a {
-  padding-right: 0;
-  padding-left: 0;
-  font-size: 16px;
-  font-weight: bold;
-  color: #fff;
-  /* IE8 proofing */
-  color: rgba(255, 255, 255, 0.75);
-  border-bottom: 2px solid transparent;
-}
-
-/* line 91, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
-.masthead-nav > li > a:hover,
-.masthead-nav > li > a:focus {
-  background-color: transparent;
-  border-bottom-color: #a9a9a9;
-  border-bottom-color: rgba(255, 255, 255, 0.25);
-}
-
-/* line 97, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
-.masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
-}
-
-@media (min-width: 768px) {
-  /* line 105, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
-  .masthead-brand {
-    float: left;
-  }
-
-  /* line 108, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
-  .masthead-nav {
-    float: right;
-  }
-}
 /*
  * Cover
  */
-/* line 118, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
+/* line 82, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
 .cover {
-  padding: 0 20px;
+  padding: 25px 20px;
 }
 
-/* line 121, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
+/* line 85, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
 .cover .btn-lg {
   padding: 10px 20px;
   font-weight: bold;
@@ -167,7 +119,7 @@ a:hover {
 /*
  * Footer
  */
-/* line 131, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
+/* line 95, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
 .mastfoot {
   color: #999;
   /* IE8 proofing */
@@ -179,26 +131,26 @@ a:hover {
  */
 @media (min-width: 768px) {
   /* Pull out the header and footer */
-  /* line 143, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
+  /* line 107, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
   .masthead {
     position: fixed;
     top: 0;
   }
 
-  /* line 147, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
+  /* line 111, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
   .mastfoot {
     position: fixed;
     bottom: 10;
   }
 
   /* Start the vertical centering */
-  /* line 152, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
+  /* line 116, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
   .site-wrapper-inner {
     vertical-align: middle;
   }
 
   /* Handle the widths */
-  /* line 156, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
+  /* line 120, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
   .masthead,
   .mastfoot,
   .cover-container {
@@ -207,7 +159,7 @@ a:hover {
   }
 }
 @media (min-width: 992px) {
-  /* line 164, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
+  /* line 128, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/cover.scss */
   .masthead,
   .mastfoot,
   .cover-container {
@@ -3124,40 +3076,46 @@ a:hover {
 /* line 15, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 #cover-banner {
   background: rgba(255, 255, 255, 0.8);
-  margin-top: 150px;
   padding: 10px;
   text-shadow: none;
   width: 80%;
 }
 
-/* line 23, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 22, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 #cover-banner p {
   color: black;
 }
 
-/* line 27, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 26, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 .services li {
   list-style-type: none;
 }
 
-/* line 32, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
-.services h3 {
-  font-size: 26px;
-  color: #022a50;
+/* line 30, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+.services li.book {
+  list-style-type: none;
+  float: left;
+  width: 50%;
 }
 
 /* line 37, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+.services h3 {
+  font-size: 18px;
+  color: #022a50;
+}
+
+/* line 42, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 .services li p {
   font-size: 18px;
   margin-left: 20px;
 }
 
-/* line 43, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 48, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 .cover-heading {
   color: #022a50;
 }
 
-/* line 47, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 52, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 .subheading {
   font-size: 30px;
   color: #022a50;
@@ -3166,73 +3124,68 @@ a:hover {
   display: inline-block;
 }
 
-/* line 55, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 60, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 .subheading.gap {
   margin: 50px 0;
 }
 
-/* line 59, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 64, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 .subheading.inverse {
   color: #1995dc;
 }
 
-/* line 63, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 68, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 .card-container {
   margin-top: 20px;
   margin-bottom: 50px;
 }
 
-/* line 67, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 72, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 .card {
   margin: 15px 0;
 }
 
-/* line 71, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 76, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 .container {
   padding: 60px;
 }
 
-/* line 75, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 80, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 .form-photo {
-  background: url("/assets/flags-8041d3f8d71bfaeaf363db2cbf1c568e.jpg") no-repeat center center fixed;
+  background: url("/assets/wood-b5f92508fdd1222287443a5f1867733f.jpg") no-repeat center center fixed;
   background-size: cover;
   height: 500px;
   padding-top: 150px;
 }
 
-/* line 82, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 87, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 .panel li {
   list-style-type: none;
   font-size: 17px;
 }
 
-/* line 87, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 92, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 .panel ul {
   -webkit-padding-start: 15px;
 }
 
-/* line 91, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 96, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 .container a:hover {
   color: inherit;
 }
 
-/* line 95, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
-.book-title {
-  font-style: italic;
-}
-
-/* line 99, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 100, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 .resources-list {
   text-align: center;
 }
 
-/* line 103, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 104, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 .resources-list li {
   display: inline-block;
   margin: 10px;
 }
 
-/* line 107, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 108, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 .resource-container {
   background-color: #F2F2F2;
   display: inline-block;
@@ -3240,14 +3193,14 @@ a:hover {
   border: 1px solid #e3e3e3;
 }
 
-/* line 116, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 117, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 .subtitle {
   font-style: italic;
   font-size: 18px;
   margin: 5px;
 }
 
-/* line 122, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 123, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 .college-preview {
   float: left;
   vertical-align: top;
@@ -3255,17 +3208,40 @@ a:hover {
   margin-bottom: 25px;
 }
 
-/* line 129, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 130, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 .college-feature {
   margin: 15px 0 30px 0;
 }
 
-/* line 133, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 134, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+.book-title {
+  margin-bottom: 0;
+}
+
+/* line 138, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 tr {
   padding: 10px;
 }
 
-/* line 136, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+/* line 141, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
 td {
   margin: 10px;
+}
+
+/* line 145, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/static_pages.scss */
+.testimonial {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+/* line 5, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/colleges.scss */
+.college-container {
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #e3e3e3;
+}
+
+/* line 11, /Users/AlexTriana/Desktop/programming/advising/app/assets/stylesheets/colleges.scss */
+.college-container p {
+  font-size: 16px;
 }
