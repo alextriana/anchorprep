@@ -25,6 +25,12 @@
 
 .services li {
 	list-style-type: none;
+}
+
+.services li.book {
+	list-style-type: none;
+	float: left;
+	width: 50%;
 	
 }
 

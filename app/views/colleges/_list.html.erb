@@ -1,8 +1,19 @@
     <% @colleges.limit(5).each do |college| %>
-    <div style="margin-bottom: 40px;">
+
+    <div class="college-container">
      <h2><%= college.name %></h2>
      <%= image_tag college.photo.url(:preview), :class => "college-preview" %>
-        <p style="display:inline-block; width: 61%"><%= truncate college.summary, :length => 500 %></p>
+     <div style="float:left; margin-top: 20px; width: 55%">
+     <blockquote>
+  
+     
+     <p><%= college.quote %></p>
+  <small><cite title="Source Title"><%= college.quote_author%></cite></small>
+</blockquote>
+<p><strong>Application Deadline: </strong><%= college.deadline %></div>
+<div style="clear:both"></div>
+        
+        <p><%= truncate college.summary, :length => 500 %></p>
         <%= link_to 'Read More...', college %>
       </div>
     <% end %>

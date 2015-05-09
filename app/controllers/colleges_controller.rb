@@ -12,6 +12,7 @@ class CollegesController < ApplicationController
   # GET /colleges/1
   # GET /colleges/1.json
   def show
+    @colleges = College.all
   end
 
   # GET /colleges/new
@@ -71,6 +72,6 @@ class CollegesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def college_params
-      params.require(:college).permit(:name, :summary, :photo)
+      params.require(:college).permit(:name, :summary, :photo, :deadline, :quote, :quote_author)
     end
 end

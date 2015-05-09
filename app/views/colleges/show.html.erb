@@ -6,7 +6,9 @@
 				<div class="panel-body">
 					<ul>
 						
-						<li><%= link_to 'Back', admin_dashboard_path %></li>
+						<% @colleges.each do |college| %>
+      <li><%= link_to college.name, college_path(college.id) %></li>
+      <% end%>
 					</ul>
 				</div>
 			</div>
