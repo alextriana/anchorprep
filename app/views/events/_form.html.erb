@@ -1,18 +1,19 @@
 <div class="well bs-component">
-<%= form_for(@update, :class => "form-horizontal") do |f| %>
-  <% if @update.errors.any? %>
+
+<%= form_for(@event) do |f| %>
+  <% if @event.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(@update.errors.count, "error") %> prohibited this update from being saved:</h2>
+      <h2><%= pluralize(@event.errors.count, "error") %> prohibited this event from being saved:</h2>
 
       <ul>
-      <% @update.errors.full_messages.each do |message| %>
+      <% @event.errors.full_messages.each do |message| %>
         <li><%= message %></li>
       <% end %>
       </ul>
     </div>
   <% end %>
 
- <div class="form-group">
+  <div class="form-group">
     <%= f.label :title %><br>
     <%= f.text_field :title, :class =>'form-control' %>
   </div>
@@ -24,7 +25,7 @@
     <%= f.label :date %><br>
     <%= f.text_field :date, :class =>'form-control' %>
   </div>
-  <div class="form-group">
+    <div class="form-group">
     <%= f.file_field :photo %>
   </div>
   <div class="actions">

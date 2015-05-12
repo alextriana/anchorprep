@@ -1,17 +1,21 @@
 Rails.application.routes.draw do
+
+
   devise_for :admins
   resources :updates
   resources :users
-
+  resources :events
   resources :colleges
+
   get '/home', to: 'static_pages#home', as: 'home'
   get '/about', to: 'static_pages#about', as: 'about'
   get '/resources', to: 'static_pages#resources', as: 'resources'
   get '/contact', to: 'static_pages#contact', as: 'contact'
   get '/college-spotlight', to: 'colleges#index', as: 'college-spotlight'
-  get '/news', to: 'updates#index', as: 'news'
+  get '/articles', to: 'updates#index', as: 'news'
   get '/services', to: 'static_pages#services', as: 'services'
-  get '/articles', to: 'static_pages#articles', as: 'articles'
+  get '/events', to: 'events#index', as: 'recent-events'
+
 
   get '/admin_dashboard',  to: 'admins#index', as: 'admin_dashboard'
 

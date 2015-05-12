@@ -1,8 +1,9 @@
 <div class="container">
-<h1>Editing Update</h1>
+	<button class="btn btn-default"><%= link_to 'View This Article', @update %></button>
+<button class="btn btn-default"><%= link_to 'Back to Admin Dashboard', admin_dashboard_path %></button>
+<h1>Editing College Spotlight on <%= @update.title%></h1>
 
 <%= render 'form' %>
 
-<%= link_to 'Show', @update %> |
-<%= link_to 'Back', admin_dashboard_path %>
+
 </div>

@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="col-lg-3">
+    <div class="panel panel-default">
+                <div class="panel-heading">Events</div>
+                <div class="panel-body">
+                  <ul>
+          <% @events.each do |event| %>
+      <%= link_to truncate(event.title, :length => 20), event_path(event.id) %>
+      <% end%>
+          </ul>
+                </div>
+              </div>
+    
+  </div>
+  <div class="col-lg-9">
+    <h2>Upcoming Events</h2>
+    
+      <% @events.each do |event| %>
+        <div class="event-container">
+          <h2><%= event.title %></h2>
+          <p><%= event.date %></p>
+          <p><%= event.summary %></p> 
+        </div>
+      <% end%>
+  </div>
+</div>  

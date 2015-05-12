@@ -1,7 +1,7 @@
 <div class="container">
-	<button class="btn btn-default"><%= link_to 'View This College', @college %></button>
+	<button class="btn btn-default"><%= link_to 'View This Article', @event %></button>
 <button class="btn btn-default"><%= link_to 'Back to Admin Dashboard', admin_dashboard_path %></button>
-<h1>Editing College Spotlight on <%= @college.name%></h1>
+<h1>Editing event: <%= @event.title%></h1>
 
 <%= render 'form' %>
 

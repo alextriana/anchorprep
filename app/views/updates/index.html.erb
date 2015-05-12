@@ -1,18 +1,18 @@
 <div class="container">
-	<div class="col-lg-2">
+	<div class="col-lg-3">
 		<div class="panel panel-default">
                 <div class="panel-heading">News</div>
                 <div class="panel-body">
                   <ul>
 					<% @updates.each do |update| %>
-      <li><%= link_to update.title, update_path(update.id) %></li>
+      <li><%= link_to truncate(update.title, :length => 20), update_path(update.id) %></li>
       <% end%>
 					</ul>
                 </div>
               </div>
 		
 	</div>
-	<div class="col-lg-10">
+	<div class="col-lg-9">
 		<h1>Articles</h1>
 		<%= render 'updates/list' %>
 			

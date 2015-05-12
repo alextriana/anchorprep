@@ -1,7 +1,10 @@
-    <% @updates.limit(5).each do |update| %>
+    <% @updates.each do |update| %>
      <h2><%= update.title %></h2>
-        <p><strong><%=update.date%></strong></p>     
-        <p><%= update.summary %></p>
-        <td><%= link_to 'Read More...', update %></td>
+        <p><strong><%=update.date%></strong></p>
+        <div class="photo-container text-center">
+        <%= image_tag update.photo.url(:medium) %> 
+        </div>  
+        <p><%= truncate update.summary, :length => 500 %></p>
+        <p><%= link_to 'Read More...', update %></p>
       
     <% end %>
