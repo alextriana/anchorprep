@@ -6,6 +6,6 @@ $(document).ready(function () {
 		var cur = items[Math.floor(Math.random()*items.length)]
 		$testimonial.fadeOut(1000, function() {
 		$(this).text(cur).fadeIn(1000, function(){})});
-	}, 3000).fadeIn();
+	}, 3000);
 
 });

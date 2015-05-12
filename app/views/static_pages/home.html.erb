@@ -1,75 +1,71 @@
 <div class="site-wrapper" >
-	<div class="site-wrapper-inner">
-             <% flash.each do |name, msg| %>
-  <% if msg.is_a?(String) %>
+  <div class="site-wrapper-inner">
+    <% flash.each do |name, msg| %>
+    <% if msg.is_a?(String) %>
     <%= content_tag :div, msg, :class => "alert alert-dismissible alert-#{name}", :style => "width:500px; margin: 10px auto; text-shadow: none" %>
-  <% end %>
-<% end %>
-		<div class="cover-container"  id="cover-banner">
-
-			<div class="inner cover">
-
-				<h1 class="cover-heading">Set Sail for College</h1>
-				<p class="lead">Navigating college admissions can be complex.  AnchorPrep takes the angst out of applying to college. We’ll help you learn the ropes while keeping the process positive and streamlined. With AnchorPrep you’ll maximize your college choice potential and discover your best-fit college.</p>
-				<p class="lead">
-					<a href="#provide" class="btn btn-lg btn-primary">Learn more</a>
-				</p>
+    <% end %>
+    <% end %>
+    <div class="cover-container"  id="cover-banner">
+      <div class="inner cover">
+        <h1 class="cover-heading">Set Sail for College</h1>
+        <p class="lead">Navigating college admissions can be complex.  AnchorPrep takes the angst out of applying to college. We’ll help you learn the ropes while keeping the process positive and streamlined. With AnchorPrep you’ll maximize your college choice potential and discover your best-fit college.</p>
+        <p class="lead">
+          <a href="#provide" class="btn btn-lg btn-primary">Learn more</a>
+        </p>
         <div class="testimonial">
           <div class="alert alert-dismissible alert-info">
-  <button type="button" class="close" data-dismiss="alert" >×</button>
-  <br><p>"AnchorPrep saved my college application. Applying to college is overwhelming, and Katie and Kathryn help me get into my dream school!" - Alex Triana, UC Berkeley 2016</p>
-</div>
+            <button type="button" class="close" data-dismiss="alert" >×</button>
+            <br><p>"AnchorPrep saved my college application. Applying to college is overwhelming, and Katie and Kathryn help me get into my dream school!" - Alex Triana, UC Berkeley 2016</p>
+          </div>
         </div>
-			</div>
-		</div>
-	</div>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="container" id="provide">
-	<h2 class="subheading">What We Provide</h2>
-	<div class="row card-container">
-      <div class="col-lg-6 card">
-        <div class="col-lg-12">
+  <h2 class="subheading">What We Provide</h2>
+  <div class="row card-container">
+    <div class="col-lg-12">
+    <div class="col-lg-6 card">
+
         <h3>Comprehensive College Consulting</h3>
-        <p style="font-size: 17px">Elected officers including the major and Richmond Planning Commission actively speak out against Chevron’s
-          irresponsibility, as well as propose plans to lessen Richmond’s dependency on the refinery itself.</p>
-      </div></div>      <div class="col-lg-6 card">
-        <div class="col-lg-12">        <h3>One-on-One Personal Guidance</h3>
-        <p style="font-size: 17px">Residents have peacefully protested to raise awareness, elected leaders to political office who are against
-          Chevron’s behavior, and passed measures demanding compensation for Chevron’s actions.</p>
-      </div></div> <!-- /.col-lg-6 -->
+        <p>Students and parents receive continuous and in-depth support throughout the entire application process. Our goal is to have each student stay organized, submit dynamic applications to a personalized list of colleges and maximize their financial aid opportunities.</p>
+      </div>      <div class="col-lg-6 card">
+      <div class="col-lg-12">        <h3>One-on-One Personal Guidance</h3>
+        <p>AnchorPrep tailors attention to each student’s specific needs and goals. We offer services both in-person and via Skype/phone/email.
+        </p>
+      </div></div>
+    </div>
       <div class="col-lg-6 card">
-        <div class="col-lg-12">
-        <h3>Individual Essay Coaching or Group Workshops</h3>
-        <p style="font-size: 17px">West County Toxics Coalition as well as Communities for a Better Environment actively work to mobilize the
-          community, file lawsuits against Chevron to keep them accountable, and find more allies to help the cause.</a></p>
-      </div></div> 
-      <div class="col-lg-6 card">
-        <div class="col-lg-12">
-        <h3>Hourly Advising or All-Inclusive Packages</h3>
-        <p style="font-size: 17px">West County Toxics Coalition as well as Communities for a Better Environment actively work to mobilize the
-          community, file lawsuits against Chevron to keep them accountable, and find more allies to help the cause.</a></p>
-      </div></div> 
-	</div>
-</div>
-<div class="form-photo">
-	<div class="row well col-lg-8 col-lg-offset-2">
-		      <%= form_tag mailer_signup_path, :class => "form-horizontal" do %>
-      <fieldset>
-        <legend>Stay Up to Date with our Latest and Greatest</legend>
-        <div class="form-group">
-          <label for="email" class="control-label">  </label>
-          <div class="col-lg-8 col-lg-offset-2">
-            <%= text_field_tag :email, "", :placeholder => "jonsmith@example.com", :class =>'form-control'  %>
-          </div>
-
+    
+          <h3>Individual Essay Coaching or Group Workshops</h3>
+          <p>A strong college essay is essential to the application. With AnchorPrep’s expertise students are inspired to create their own best writing. We offer both individual sessions and group workshops for the Common Application, UC personal statements, private school supplements and grant/scholarship essays.
+          </p>
         </div>
-        <div class="form-group" style="text-align:center">
-          <div style="margin: 0 auto">
-            <%= submit_tag "Add my email to the mailing list", :class => 'btn btn-primary' %>
+        <div class="col-lg-6 card">
+         
+            <h3>Hourly Advising or All-Inclusive Packages</h3>
+            <p>AnchorPrep offers comprehensive junior and senior year packages for assistance through college planning and final enrollment decisions.  We also offer rates for students who need guidance on particular aspects of the application process. </p>
           </div>
         </div>
-      </fieldset>
-    <% end %>
-	</div>	
-
-</div>
+      </div>
+      <div class="form-photo">
+        <div class="row well col-lg-8 col-lg-offset-2">
+          <%= form_tag mailer_signup_path, :class => "form-horizontal" do %>
+          <fieldset>
+            <legend>Stay Up to Date with our Latest and Greatest</legend>
+            <div class="form-group">
+              <label for="email" class="control-label">  </label>
+              <div class="col-lg-8 col-lg-offset-2">
+                <%= text_field_tag :email, "", :placeholder => "jonsmith@example.com", :class =>'form-control'  %>
+              </div>
+            </div>
+            <div class="form-group" style="text-align:center">
+              <div style="margin: 0 auto">
+                <%= submit_tag "Add my email to the mailing list", :class => 'btn btn-primary' %>
+              </div>
+            </div>
+          </fieldset>
+          <% end %>
+        </div>
+      </div>
