@@ -33,7 +33,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Unicorn as the app server
 # gem 'unicorn'
 gem 'mandrill-api', require: 'mandrill'
-gem 'newrelic_rpm'
 gem 'figaro'
 gem 'devise'
 gem 'font-awesome-sass'
@@ -47,6 +46,7 @@ gem "paperclip", "~> 4.2"
 group :production do
  gem 'pg'
  gem 'rails_12factor'
+ gem 'newrelic_rpm'
 end
 
 group :development, :test do
