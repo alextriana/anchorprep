@@ -27,6 +27,8 @@
             </ol>
         </div>
         <br>
+        <% if [nil,""].include?(college.other) == false %>
         <p class="text-left"><strong>Other: </strong><%= college.other %>
+            <% end %>
         </div>
         <% end %>
