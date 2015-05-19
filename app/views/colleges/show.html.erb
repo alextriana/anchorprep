@@ -37,8 +37,10 @@
 					            <h3>Fun Facts:</h3>
 
 					<ol class="fact-list">
+						<% if college.facts %>
 						<% @college.facts.each do |fact| %>
 						<li><%= fact %></li>
+						<% end %>
 						<% end %>
 					</ol>
 				</div>
