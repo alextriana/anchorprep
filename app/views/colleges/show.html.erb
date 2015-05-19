@@ -1,36 +1,49 @@
-<div class="container">
-	<div class="container" style="margin-top: 20px">
-		<div class="col-lg-3">
-			<div class="panel panel-default">
-				<div class="panel-heading">All Colleges</div>
-				<div class="panel-body">
-					<ul>
-						
-						<% @colleges.each do |college| %>
-						<li><%= link_to college.name, college_path(college.id) %></li>
-						<% end%>
-					</ul>
-				</div>
+<div class="container" style="margin-top: 20px">
+	<div class="col-lg-3">
+		<div class="panel panel-default">
+			<div class="panel-heading">All Colleges</div>
+			<div class="panel-body">
+				<ul>
+					
+					<% @colleges.each do |college| %>
+					<li><%= link_to college.name, college_path(college.id) %></li>
+					<% end%>
+				</ul>
 			</div>
-			
 		</div>
-		<div class="col-lg-9 text-center">
-			
-			<div class="college-container">
-				<h2><%= @college.name %></h2>
-				<%= image_tag @college.photo.url(:preview), :class => "college-preview" %>
-				<div style="float:left; margin-top: 20px; width: 55%">
-					<blockquote>
-						
-						
-						<p><%= @college.quote %></p>
-						<small><cite title="Source Title"><%= @college.quote_author%></cite></small>
-					</blockquote>
-				<p><strong>Application Deadline: </strong><%= @college.deadline %></div>
-				<div style="clear:both"></div>
+		
+	</div>
+	<div class="col-lg-9 text-center">
+		
+		<div class="college-container">
+			<h2><%= @college.name %></h2>
+			<%= image_tag @college.photo.url(:preview), :class => "college-preview" %>
+			<% if [nil,""].include?(@college.quote) == false %>
+			<div class="quote">
+				<blockquote>
+					
+					
+					<p><%= @college.quote %></p>
+					<small><cite title="Source Title"><%= @college.quote_author%></cite></small>
+				</blockquote>
+				
+			</div>
+			<% end %>
+			<p><strong>Application Deadline: </strong><%= @college.deadline %>
+				<p><a href="<%= @college.website %>">Admissions Website</a>
+				
+				<div class="clearfix"></div>
 				<div class="text-left">
-					<p><%= simple_format @college.summary %></p>
+					            <h3>Fun Facts:</h3>
+
+					<ol class="fact-list">
+						<% @college.facts.each do |fact| %>
+						<li><%= fact %></li>
+						<% end %>
+					</ol>
 				</div>
+				<br>
+				<p class="text-left"><strong>Other: </strong><%= @college.other %>	
 			</div>
 		</div>
 	</div>

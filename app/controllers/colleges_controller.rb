@@ -1,5 +1,5 @@
 class CollegesController < ApplicationController
-  before_action :set_college, only: [:show, :edit, :update, :destroy]
+  before_action :set_college, only: [ :edit, :update, :destroy]
   before_filter :authenticate_admin!, :except => [:index, :show]
 
 
@@ -13,6 +13,7 @@ class CollegesController < ApplicationController
   # GET /colleges/1.json
   def show
     @colleges = College.all
+    @college = College.find(params[:id])
   end
 
   # GET /colleges/new
@@ -29,6 +30,9 @@ class CollegesController < ApplicationController
   def create
     @college = College.new(college_params)
 
+    @college.facts = params.require(:college)[:facts].split("\r\n")
+    puts "FACTS IS:"
+    puts @college.facts
     respond_to do |format|
       if @college.save
         format.html { redirect_to @college, notice: 'College was successfully created.' }
@@ -43,6 +47,7 @@ class CollegesController < ApplicationController
   # PATCH/PUT /colleges/1
   # PATCH/PUT /colleges/1.json
   def update
+    @college.facts = params.require(:college)[:facts].split("\r\n")
     respond_to do |format|
       if @college.update(college_params)
         format.html { redirect_to @college, notice: 'College was successfully updated.' }
@@ -68,10 +73,11 @@ class CollegesController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_college
       @college = College.find(params[:id])
+      @college.facts = @college.facts.join("\r\n")
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def college_params
-      params.require(:college).permit(:name, :summary, :photo, :deadline, :quote, :quote_author)
+      params.require(:college).permit(:name, :other, :website, :photo, :deadline, :quote, :quote_author)
     end
 end

@@ -85,7 +85,7 @@
 }
 
 .form-photo {
-	background: url(asset-path('wood.jpg')) no-repeat center center fixed;
+	background: url(asset-path('s1_wood.jpg')) no-repeat center center fixed;
   	background-size: cover;
   	height: 650px;
   	padding-top: 225px
@@ -123,8 +123,6 @@
 .resource-container {
 	background-color: #F2F2F2;
 	display: inline-block;
-	// height: 75px;
-	// width: 300px;
 	padding: 10px 15px;
 	border: 1px solid #e3e3e3;
 }
@@ -145,6 +143,22 @@
 .college-container {
 	h2 {
 		margin-bottom: 30px;
+	}
+
+	.quote {
+		float:left; 
+		margin-top: 20px; 
+		width: 55%
+	}
+
+	.fact-list {
+		margin-top: 30px;
+		li {
+
+			// list-style-type: ;
+			font-size: 18px;
+			margin: 15px 0;
+		}
 	}
 }
 
@@ -179,5 +193,43 @@ td {
 
 	.text {
 		color: #3a87ad;
+	}
+}
+
+.ribbon {
+	text-align: center;
+  color:  white;
+  background-color: #54b4eb;
+  padding: 30px 0;
+  height: 300px;
+  position: relative;
+
+  h2 {
+  	color: white;
+  	-webkit-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+  	position: absolute;
+  	top: 10;
+  	margin-top: 40px;
+  	border: 3px dashed;
+  	padding: 15px ;
+  }
+
+  h3 {
+ 		font-size: 22px;
+  	margin-top: 10px;
+  }
+}
+
+#admin-dash {
+	margin-top: 0;
+
+	h2 {
+		display: inline-block;
+	}
+
+	.new {
+		margin: 50px;
 	}
 }
