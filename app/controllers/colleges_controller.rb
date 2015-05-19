@@ -73,7 +73,9 @@ class CollegesController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_college
       @college = College.find(params[:id])
-      @college.facts = @college.facts.join("\r\n")
+      if @college.facts != nil
+        @college.facts = @college.facts.join("\r\n")
+      end
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
