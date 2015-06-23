@@ -1,9 +1,6 @@
 <div class="container">
 <button class="btn btn-default"><%= link_to 'View All Updates', updates_path %></button>
-	<h1><%= @update.title %></h1>
+	<a href=<%= @update.link%>><h2><%= @update.title %></h2></a>
         <p style="font-size: 16px"><strong><%=@update.date%></strong></p>
-        <div class="photo-container text-center">
-        <%= image_tag @update.photo.url(:medium) %> 
-        </div>  
         <p style="font-size:16px"><%= simple_format @update.summary %></p>
 </div>

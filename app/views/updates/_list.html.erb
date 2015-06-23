@@ -1,10 +1,8 @@
     <% @updates.each do |update| %>
     <div class="article-container">
-     <h2><%= update.title %></h2>
+     <a href=<%= update.link%>><h2><%= update.title %></h2></a>
         <p><strong><%=update.date%></strong></p>
-        <div class="photo-container text-center">
-        <%= image_tag update.photo.url(:medium) %> 
-        </div>  
+         
         <p><%= truncate update.summary, :length => 500 %></p>
         <p><%= link_to 'Read More...', update %></p>
       </div>
