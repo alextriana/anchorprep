@@ -15,4 +15,6 @@
  *= require cover
  *= require static_pages
  *= require colleges
+ *= require events
+ *= require updates
  */

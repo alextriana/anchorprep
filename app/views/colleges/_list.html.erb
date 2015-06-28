@@ -2,33 +2,42 @@
 <div class="college-container">
     <h2><%= college.name %></h2>
     <%= image_tag college.photo.url(:preview), :class => "college-preview" %>
-    <% if [nil,""].include?(college.quote) == false %>
-    <div class="quote">
-        <blockquote>
-            
-            
-            <p><%= college.quote %></p>
-            <small><cite title="Source Title"><%= college.quote_author%></cite></small>
-        </blockquote>
-        </div>
-        <% end %>
     
-    <h3>Fun Facts:</h3>
-    <p><strong>Application Deadline: </strong><%= college.deadline %>
-        <p><a href="<%= college.website %>">Admissions Website</a>
-        <div class="clearfix"></div>
-        <div class="text-left">
-            <ol class="fact-list">
-                <% if college.facts %>
-                <% college.facts.each do |fact| %>
-                <li><%= fact %></li>
-                <% end %>
-                <% end %>
-            </ol>
-        </div>
-        <br>
-        <% if [nil,""].include?(college.other) == false %>
-        <p class="text-left"><strong>Other: </strong><%= college.other %>
-            <% end %>
+    <div>
+        <% if [nil,""].include?(college.quote) == false %>
+        <div class="quote">
+            <blockquote>
+                <p><%= college.quote %></p>
+                <small><cite title="Source Title"><%= college.quote_author%></cite></small>
+            </blockquote>
         </div>
         <% end %>
+        
+       
+    </div>
+    
+    
+    <div class="clearfix"></div>
+     <div class="external-info">
+            <p><strong>Application Deadline: </strong></p>
+            <p>Early Action: <%= college.deadline %></p>
+            <p>Regular Decision: <%= college.early_deadline %></p>
+            <p><a href="<%= college.website %>">Admissions Website</a></p>
+        </div>
+    <% if college.facts %>
+    <div class="text-left">
+        <h3>Fun Facts:</h3>
+        <ol class="fact-list">
+            
+            <% college.facts.each do |fact| %>
+            <li><%= fact %></li>
+            <% end %>
+        </ol>
+    </div>
+    <% end %>
+    <br>
+    <% if [nil,""].include?(college.other) == false %>
+    <p class="text-left"><strong>Other: </strong><%= college.other %>
+        <% end %>
+    </div>
+    <% end %>

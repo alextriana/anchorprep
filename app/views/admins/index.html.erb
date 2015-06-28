@@ -20,7 +20,7 @@
         <td><%= update.title %></td>
         <td><%= truncate update.summary, :length => 50 %></td>
         <td><%= update.date %></td>
-        <td><%= link_to 'Show', update, :class => "btn btn-primary" %></td>
+        <td><%= link_to 'View', update, :class => "btn btn-primary" %></td>
         <td><%= link_to 'Edit', edit_update_path(update), :class => "btn btn-warning" %></td>
         <td><%= link_to 'Delete', update, method: :destroy, data: { confirm: 'Are you sure?' }, :class => "btn btn-danger" %></td>
       </tr>
@@ -36,8 +36,7 @@
   <thead>
     <tr>
       <th>Name</th>
-      <th>Summary</th>
-      <th colspan="3"></th>
+      <th colspan="4"></th>
     </tr>
   </thead>
 
@@ -45,9 +44,9 @@
     <% @colleges.each do |college| %>
       <tr>
         <td><strong><%= college.name %></strong></td>
-        <td><%= link_to 'Show', college, :class => "btn btn-primary"%></td>
-        <td><%= link_to 'Edit', edit_college_path(college), :class => "btn btn-warning"%></td>
-        <td><%= link_to 'Delete', college, method: :destroy, data: { confirm: 'Are you sure?' }, :class => "btn btn-danger" %></td>
+        <td class="button-container"><%= link_to 'View', college, :class => "btn btn-primary"%></td>
+        <td class="button-container"><%= link_to 'Edit', edit_college_path(college), :class => "btn btn-warning"%></td>
+        <td class="button-container"><%= link_to 'Delete', college, method: :destroy, data: { confirm: 'Are you sure?' }, :class => "btn btn-danger" %></td>
       </tr>
     <% end %>
   </tbody>
@@ -74,9 +73,9 @@
                 <td><%= event.date %></td>
         <td><%= truncate event.summary, length: 50 %></td>
 
-        <td><%= link_to 'Show', event, :class => "btn btn-primary" %></td>
-        <td><%= link_to 'Edit', edit_event_path(event), :class => "btn btn-warning" %></td>
-        <td><%= link_to 'Destroy', event, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-danger" %></td>
+        <td class="button-container"><%= link_to 'View', event, :class => "btn btn-primary" %></td>
+        <td class="button-container"><%= link_to 'Edit', edit_event_path(event), :class => "btn btn-warning" %></td>
+        <td class="button-container"><%= link_to 'Destroy', event, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-danger" %></td>
       </tr>
     <% end %>
   </tbody>
