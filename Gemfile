@@ -37,6 +37,7 @@ gem 'figaro'
 gem 'devise'
 gem 'font-awesome-sass'
 gem "paperclip", "~> 4.2"
+gem 'aws-sdk'
 
 
 # Use Capistrano for deployment
