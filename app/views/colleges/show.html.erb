@@ -13,11 +13,10 @@
 		</div>
 		
 	</div>
-	<div class="col-lg-9 text-center">
+	<div class="col-lg-9">
 		
 		<div class="college-container">
 			<h2><%= @college.name %></h2>
-			<%= image_tag @college.photo.url(:preview), :class => "college-preview" %>
 			<% if [nil,""].include?(@college.quote) == false %>
 			<div class="quote">
 				<blockquote>
@@ -29,10 +28,14 @@
 				
 			</div>
 			<% end %>
-			<p><strong>Application Deadline: </strong><%= @college.deadline %>
-				<p><a href="<%= @college.website %>">Admissions Website</a>
+			<div class="external-info">
+            <h3>Application Deadlines</h3>
+            <p>Early Action: <%= @college.early_action %></p>
+            <p>Early Decision: <%= @college.early_decision %></p>
+            <p>Regular Decision: <%= @college.regular_decision %></p>
+            <p><a href="<%= @college.website %>">Admissions Website</a></p>
+        </div>
 				
-				<div class="clearfix"></div>
 				<div class="text-left">
 					            <h3>Fun Facts:</h3>
 

@@ -1,9 +1,7 @@
 <% @colleges.limit(5).each do |college| %>
 <div class="college-container">
     <h2><%= college.name %></h2>
-    <%= image_tag college.photo.url(:preview), :class => "college-preview" %>
     
-    <div>
         <% if [nil,""].include?(college.quote) == false %>
         <div class="quote">
             <blockquote>
@@ -12,16 +10,13 @@
             </blockquote>
         </div>
         <% end %>
-        
-       
-    </div>
     
-    
-    <div class="clearfix"></div>
+  
      <div class="external-info">
-            <p><strong>Application Deadline: </strong></p>
-            <p>Early Action: <%= college.deadline %></p>
-            <p>Regular Decision: <%= college.early_deadline %></p>
+            <h3>Application Deadlines</h3>
+            <p>Early Action: <%= college.early_action %></p>
+            <p>Early Decision: <%= college.early_decision %></p>
+            <p>Regular Decision: <%= college.regular_decision %></p>
             <p><a href="<%= college.website %>">Admissions Website</a></p>
         </div>
     <% if college.facts %>
