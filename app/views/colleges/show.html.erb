@@ -36,16 +36,18 @@
             <p><a href="<%= @college.website %>">Admissions Website</a></p>
         </div>
 				
-				<div class="text-left">
-					            <h3>Fun Facts:</h3>
+				<% if @college.facts %>
+					<div class="text-left">
+					  <h3>Fun Facts:</h3>
 
-					<ol class="fact-list">
-						<% if @college.facts %>
-						<% @college.facts.each do |fact| %>
-						<li><%= fact %></li>
-						<% end %>
-						<% end %>
-					</ol>
+						<ol class="fact-list">
+							
+							<% @college.facts.each do |fact| %>
+							<li><%= fact %></li>
+							<% end %>
+							
+						</ol>
+					<% end %>
 				</div>
 				<br>
 				<% if [nil,""].include?(@college.other) == false %>
