@@ -1,6 +1,6 @@
     <% @updates.each do |update| %>
     <div class="article-container">
-     <a href=<%= update.link%>><h2><%= update.title %></h2>
+     <a href=<%= update.link%> target="_blank"><h2><%= update.title %></h2>
         <p><strong><%=update.date%></strong></p>
          
         <p><%= truncate update.summary, :length => 500 %></p>
