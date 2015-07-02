@@ -35,7 +35,17 @@
             <p>Regular Decision: <%= @college.regular_decision %></p>
             <p><a href="<%= @college.website %>">Admissions Website</a></p>
         </div>
-				
+				<% if @college.basics %>
+    <div class="text-left">
+        <h3>The Basics:</h3>
+        <ol class="fact-list">
+            
+            <% @college.basics.each do |fact| %>
+            <li><%= fact %></li>
+            <% end %>
+        </ol>
+    </div>
+    <% end %>
 				<% if @college.facts %>
 					<div class="text-left">
 					  <h3>Fun Facts:</h3>
@@ -48,6 +58,7 @@
 							
 						</ol>
 					<% end %>
+
 				</div>
 				<br>
 				<% if [nil,""].include?(@college.other) == false %>

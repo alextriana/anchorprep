@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150630145300) do
+ActiveRecord::Schema.define(version: 20150702134407) do
 
   create_table "admins", force: :cascade do |t|
     t.string   "first_name"
@@ -50,6 +50,7 @@ ActiveRecord::Schema.define(version: 20150630145300) do
     t.string   "early_action",       default: "None"
     t.string   "early_decision",     default: "None"
     t.string   "regular_decision",   default: "None"
+    t.text     "basics"
   end
 
   create_table "events", force: :cascade do |t|

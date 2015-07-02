@@ -31,8 +31,7 @@ class CollegesController < ApplicationController
     @college = College.new(college_params)
 
     @college.facts = params.require(:college)[:facts].split("\r\n")
-    puts "FACTS IS:"
-    puts @college.facts
+    @college.basics = params.require(:college)[:basics].split("\r\n")
     respond_to do |format|
       if @college.save
         format.html { redirect_to @college, notice: 'College was successfully created.' }
@@ -48,6 +47,7 @@ class CollegesController < ApplicationController
   # PATCH/PUT /colleges/1.json
   def update
     @college.facts = params.require(:college)[:facts].split("\r\n")
+    @college.basics = params.require(:college)[:basics].split("\r\n")
     respond_to do |format|
       if @college.update(college_params)
         format.html { redirect_to @college, notice: 'College was successfully updated.' }
@@ -76,10 +76,13 @@ class CollegesController < ApplicationController
       if @college.facts != nil
         @college.facts = @college.facts.join("\r\n")
       end
+      if @college.basics
+        @college.basics = @college.basics.join("\r\n")
+      end
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def college_params
-      params.require(:college).permit(:name, :other, :website, :photo, :early_action, :early_decision, :regular_decision, :quote, :quote_author)
+      params.require(:college).permit(:name, :other, :website, :early_action, :early_decision, :regular_decision, :quote, :quote_author)
     end
 end

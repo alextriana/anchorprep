@@ -156,7 +156,7 @@
 	.fact-list {
 		margin-top: 30px;
 		li {
-			font-size: 18px;
+			font-size: 16px;
 			margin: 15px 0;
 		}
 	}
@@ -196,27 +196,7 @@ td {
 	}
 }
 
-.like-fb {
-	position: absolute;
-	display: inline-block;
-	bottom: 40px;
-	left: 40px;
-	height: 50px;
-	padding: 15px;
-	font-size: 16px;
-	color: white;
-	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px;
-	border-radius: 4px;
-	-moz-background-color: #30488B;
-	-webkit-background-color: #30488B;
-	background-color: #30488B;
 
-	p {
-		cursor: default;
-	}
-
-}
 
 .ribbon {
 	text-align: center;
@@ -242,6 +222,27 @@ td {
  		font-size: 22px;
   	margin-top: 10px;
   }
+
+  .like-fb {
+		position: absolute;
+		display: inline-block;
+		top: 40px;
+		right: 40px;
+		height: 50px;
+		padding: 15px;
+		font-size: 16px;
+		color: white;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		border-radius: 4px;
+		-moz-background-color: #30488B;
+		-webkit-background-color: #30488B;
+		background-color: #30488B;
+
+		p {
+			cursor: default;
+		}
+	}
 }
 
 #admin-dash {

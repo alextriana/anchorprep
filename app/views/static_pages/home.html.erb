@@ -26,8 +26,7 @@
   <h2 class="subheading">What We Provide</h2>
   <div class="row card-container">
     <div class="col-lg-12">
-    <div class="col-lg-6 card">
-
+      <div class="col-lg-6 card">
         <h3>Comprehensive College Consulting</h3>
         <p>Students and parents receive continuous and in-depth support throughout the entire application process. Our goal is to have each student stay organized, submit dynamic applications to a personalized list of colleges and maximize their financial aid opportunities.</p>
       </div>      <div class="col-lg-6 card">
@@ -36,49 +35,83 @@
         </p>
       </div></div>
     </div>
-      <div class="col-lg-6 card">
-    
-          <h3>Individual Essay Coaching or Group Workshops</h3>
-          <p>A strong college essay is essential to the application. With AnchorPrep’s expertise students are inspired to create their own best writing. We offer both individual sessions and group workshops for the Common Application, UC personal statements, private school supplements and grant/scholarship essays.
-          </p>
-        </div>
-        <div class="col-lg-6 card">
-         
-            <h3>Hourly Advising or All-Inclusive Packages</h3>
-            <p>AnchorPrep offers comprehensive junior and senior year packages for assistance through college planning and final enrollment decisions.  We also offer hourly rates for students who need guidance on particular aspects of the application process. </p>
-          </div>
-        </div>
-      </div>
-      <div class="ribbon"><h2>Contact Us Now!</h2><h3 style="
-    color: white;
-    margin-top: 70px; font-size: 44px;
-">Free 30 minute consultation</h3><p style="
-    font-size: 22px;
-">Meet our staff and get started with your college planning!
-  </p>
-<a href="/contact" class="btn btn-default" style="
-">Sign up here</a>
+    <div class="col-lg-6 card">
+      
+      <h3>Individual Essay Coaching or Group Workshops</h3>
+      <p>A strong college essay is essential to the application. With AnchorPrep’s expertise students are inspired to create their own best writing. We offer both individual sessions and group workshops for the Common Application, UC personal statements, private school supplements and grant/scholarship essays.
+      </p>
+    </div>
+    <div class="col-lg-6 card">
+      
+      <h3>Hourly Advising or All-Inclusive Packages</h3>
+      <p>AnchorPrep offers comprehensive junior and senior year packages for assistance through college planning and final enrollment decisions.  We also offer hourly rates for students who need guidance on particular aspects of the application process. </p>
+    </div>
+  </div>
 </div>
-      <div class="form-photo">
-        <div class="row well col-lg-8 col-lg-offset-2">
-          <%= form_tag mailer_signup_path, :class => "form-horizontal" do %>
-          <fieldset>
-            <legend>Want to learn more? Sign up for our mailing list!</legend>
-            <div class="form-group">
-              <label for="email" class="control-label">  </label>
-              <div class="col-lg-8 col-lg-offset-2">
-                <%= text_field_tag :email, "", :placeholder => "jonsmith@example.com", :class =>'form-control'  %>
-              </div>
-            </div>
-            <div class="form-group" style="text-align:center">
-              <div style="margin: 0 auto">
-                <%= submit_tag "Add my email to the mailing list", :class => 'btn btn-primary' %>
-              </div>
-            </div>
-          </fieldset>
-          <% end %>
-        </div>
-        <a href="https://www.facebook.com/pages/Anchor-Prep/608426389297843" target="_blank" class="like-fb">
-        <p>Like us on Facebook</p>
-      </a>
+<div class="ribbon"><h2>Contact Us Now!</h2><h3 style="
+  color: white;
+  margin-top: 70px; font-size: 44px;
+  ">Free 30 minute consultation</h3><p style="
+    font-size: 22px;
+    ">Meet our staff and get started with your college planning!
+  </p>
+  <a href="/contact" class="btn btn-default" style="
+  ">Sign up here</a>
+  <a href="https://www.facebook.com/pages/Anchor-Prep/608426389297843" target="_blank" class="like-fb">
+    <p>Like us on Facebook</p>
+  </a>
+</div>
+<div id="testimonials" class="container">
+  <h2 class="subheading">What People are Saying About Us</h2>
+  <div class="row card-container">
+    <div class="col-lg-12">
+      <div class="col-lg-6 card">
+        <blockquote>
+          <p>"Your patience, wisdom, guidance and humor were much appreciated through the journey." </p>
+          <small>Anchor Prep Parent</cite>
+        </blockquote>
       </div>
+      <div class="col-lg-6 card">
+        <blockquote>
+          <p>"Thank you so much for all of the help you have given our son as he embarks on this college search. It has been invaluable." </p>
+          <small>Anchor Prep Parent</cite>
+        </blockquote>
+      </div>
+      <div class="col-lg-6 card">
+        <blockquote>
+          <p>"My son was accepted to a top tier university and Katie deserves a ton of credit for helping to make his dream a reality." </p>
+          <small>Anchor Prep Parent</cite>
+        </blockquote>
+      </div>
+      <div class="col-lg-6 card">
+        <blockquote>
+          <p>"Without AnchorPrep I wouldn't have been admitted to such amazing universities." </p>
+          <small>Anchor Prep Student</cite>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="form-photo">
+  <div class="row well col-lg-8 col-lg-offset-2">
+    <%= form_tag mailer_signup_path, :class => "form-horizontal" do %>
+    <fieldset>
+      <legend>Want to learn more? Sign up for our mailing list!</legend>
+      <div class="form-group">
+        <label for="email" class="control-label">  </label>
+        <div class="col-lg-8 col-lg-offset-2">
+          <%= text_field_tag :email, "", :placeholder => "jonsmith@example.com", :class =>'form-control'  %>
+        </div>
+      </div>
+      <div class="form-group" style="text-align:center">
+        <div style="margin: 0 auto">
+          <%= submit_tag "Add my email to the mailing list", :class => 'btn btn-primary' %>
+        </div>
+      </div>
+    </fieldset>
+    <% end %>
+  </div>
+  <a href="https://www.facebook.com/pages/Anchor-Prep/608426389297843" target="_blank" class="like-fb">
+    <p>Like us on Facebook</p>
+  </a>
+</div>
