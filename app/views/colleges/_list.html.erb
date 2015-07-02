@@ -1,4 +1,4 @@
-<% @colleges.limit(5).each do |college| %>
+<% @colleges.reverse.limit(5).each do |college| %>
 <div class="college-container">
     <h2><%= college.name %></h2>
     
