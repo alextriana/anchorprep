@@ -22,7 +22,7 @@
         <td><%= update.date %></td>
         <td><%= link_to 'View', update, :class => "btn btn-primary" %></td>
         <td><%= link_to 'Edit', edit_update_path(update), :class => "btn btn-warning" %></td>
-        <td><%= link_to 'Delete', update, method: :destroy, data: { confirm: 'Are you sure?' }, :class => "btn btn-danger" %></td>
+        <td><%= link_to 'Delete', update, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-danger" %></td>
       </tr>
     <% end %>
   </tbody>
@@ -46,7 +46,7 @@
         <td><strong><%= college.name %></strong></td>
         <td class="button-container"><%= link_to 'View', college, :class => "btn btn-primary"%></td>
         <td class="button-container"><%= link_to 'Edit', edit_college_path(college), :class => "btn btn-warning"%></td>
-        <td class="button-container"><%= link_to 'Delete', college, method: :destroy, data: { confirm: 'Are you sure?' }, :class => "btn btn-danger" %></td>
+        <td class="button-container"><%= link_to 'Delete', college, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-danger" %></td>
       </tr>
     <% end %>
   </tbody>

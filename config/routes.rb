@@ -25,7 +25,7 @@ Rails.application.routes.draw do
   post '/mailer/signup', to: 'users#create', as: 'mailer_signup'
 
   devise_scope :admin do
-    get "/admin", to: "devise/sessions#new"
+    get "/admin", to: "devise/sessions#new", as: 'admin_index'
   end
 
 
