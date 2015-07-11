@@ -57,7 +57,7 @@ class UpdatesController < ApplicationController
   def destroy
     @update.destroy
     respond_to do |format|
-      format.html { redirect_to admin_index, notice: 'Update was successfully destroyed.' }
+      format.html { redirect_to admin_index_path, notice: 'Update was successfully destroyed.' }
       format.json { head :no_content }
     end
   end

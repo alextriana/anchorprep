@@ -64,7 +64,7 @@ class CollegesController < ApplicationController
   def destroy
     @college.destroy
     respond_to do |format|
-      format.html { redirect_to admin_index, notice: 'College was successfully destroyed.' }
+      format.html { redirect_to admin_index_path, notice: 'College was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
