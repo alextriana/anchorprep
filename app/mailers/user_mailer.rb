@@ -30,6 +30,7 @@ class UserMailer < ApplicationMailer
       else
         type = user.relationship
       end
+      contact = user.email.length > 0 ? user.email : "Not provided"
       message = {
         to: [{email: admin_user.email}],
         merge_vars: [
@@ -37,6 +38,7 @@ class UserMailer < ApplicationMailer
            vars: [
               { name: "first_name", content: admin_user.first_name },
               { name: "request_name", content: user.first_name },
+              { name: "email", content: contact },
               { name: "request_type", content: type},
               { name: "request_message", content: message }
           	]
