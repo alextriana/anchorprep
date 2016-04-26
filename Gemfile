@@ -33,6 +33,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Unicorn as the app server
 # gem 'unicorn'
 gem 'mandrill-api', require: 'mandrill'
+gem 'sendgrid-ruby'
 gem 'figaro'
 gem 'devise'
 gem 'font-awesome-sass'

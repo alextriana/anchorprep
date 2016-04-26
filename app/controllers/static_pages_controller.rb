@@ -20,8 +20,8 @@ class StaticPagesController < ApplicationController
     @user = User.add_or_update(permitted_params)
     if @user.email.length > 0
       @user.send_contact_confirmation
+      Admin.alert_of_contact_request(@user, params[:body])
     end
-    Admin.alert_of_contact_request(@user, params[:body])
     flash[:notice] = "Your request has been submitted. You should recieve a confirmation email shortly."
     redirect_to contact_path
   end
